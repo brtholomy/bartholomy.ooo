@@ -1,3 +1,90 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://www.bartholomy.ooo"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Bartholomy"
+theme = "bth-hermit"
+
+# enableGitInfo = true
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+
+rssLimit = 10  # Maximum number of items in the RSS feed.
+copyright = "CC hautogdoad, LLC" # This message is only used by the RSS template.
+
+# googleAnalytics = "UA-123-45"
+
+[author]
+  name = "Bartholomy"
+
+[blackfriday]
+  # hrefTargetBlank = true
+  # noreferrerLinks = true
+  # nofollowLinks = true
+
+[taxonomies]
+  # hack! this sets the "plural" of tag:
+  # just so I don't have to define my own layouts/_default/series.html I guess
+  # https://www.kiroule.com/article/add-series-taxonomy-to-hugo-theme/
+  tag = "series"
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+[[related.indices]]
+  name = 'series'
+  weight = 100
+[[related.indices]]
+  name = 'categories'
+  weight = 100
+[[related.indices]]
+  name = 'date'
+  weight = 80
+
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  # description = ""
+  # images = [""]
+  themeColor = "#e67128"
+
+  homeSubtitle = "Unlimited Human Renaissance"
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  # bgImg = ""  # Homepage background-image URL
+
+  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
+  justifyContent = false  # Set "text-align: justify" to `.content`.
+
+  relatedPosts = true  # Add a related content section to all single posts page
+
+  code_copy_button = true # Turn on/off the code-copy-button for code-fields
+
+  # Add custom css
+  # customCSS = ["css/foo.css", "css/bar.css"]
+
+[menu]
+
+  [[menu.main]]
+    name = "posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "books"
+    url = "books/"
+    weight = 20
+
+  [[menu.main]]
+    name = "music"
+    url = "music/"
+    weight = 30
+
+  [[menu.main]]
+    name = "about"
+    url = "about/"
+    weight = 40
