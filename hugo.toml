@@ -15,6 +15,7 @@ copyright = "CC hautogdoad, LLC" # This message is only used by the RSS template
 
 [author]
   name = "Bartholomy"
+  url = "about"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -51,10 +52,12 @@ copyright = "CC hautogdoad, LLC" # This message is only used by the RSS template
   # Metadata mostly used in document's head
   # description = ""
   # images = [""]
-  themeColor = "#e67128"
 
   homeSubtitle = "Unlimited Human Renaissance"
   footerCopyright = '&#183;'
+  logo = "headshot.png"
+  logolink = "about"
+  favicon = "favicon.ico"
   # bgImg = ""  # Homepage background-image URL
 
   # Toggling this option needs to rebuild SCSS, requires Hugo extended version
