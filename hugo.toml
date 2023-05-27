@@ -26,7 +26,10 @@ copyright = "CC hautogdoad, LLC" # This message is only used by the RSS template
   # hack! this sets the "plural" of tag:
   # just so I don't have to define my own layouts/_default/series.html I guess
   # https://www.kiroule.com/article/add-series-taxonomy-to-hugo-theme/
-  tag = "series"
+  # tag = 'series'
+
+  # or maybe I can live with this:
+  tag = "tags"
 
 [related]
   includeNewer = true
@@ -46,8 +49,9 @@ copyright = "CC hautogdoad, LLC" # This message is only used by the RSS template
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+  dateformNum     = "2006.01.02"
+  dateformNumYearMon = "2006.01"
+  dateformNumTime = "2006.01.02 15:04 -0700"
 
   # Metadata mostly used in document's head
   # description = ""
