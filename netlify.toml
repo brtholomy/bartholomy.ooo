@@ -1,8 +1,7 @@
 # Settings in the [build] context are global and are applied to
 # all contexts unless otherwise overridden by more specific contexts.
 [build]
-  # command = "hugo --gc --minify"
-  command = "hugo --gc --minify --buildDrafts -b $DEPLOY_PRIME_URL"
+  command = "hugo --gc --minify"
 
   # Directory to change to before starting a build.
   # This is where we will look for package.json/.nvmrc/etc.
@@ -20,6 +19,10 @@
   HUGO_VERSION = "0.111.3"
 
 
+##############################
+# contexts
+##############################
+
 # Production context: all deploys from the Production branch
 # set in your site’s Branches settings in the UI will inherit
 # these settings. You can define environment variables
@@ -29,32 +32,21 @@
 #   publish = "output/"
 #   command = "make publish"
 
-
 # Deploy Preview context: all deploys generated from
 # a pull/merge request will inherit these settings.
 [context.deploy-preview]
-  # FIXME: get rid of the -D flag here once I get this figured out:
-  # command = "hugo -D --gc --minify -b master--taupe-frangipane-7e40dd.netlify.app"
-  # command = "hugo -b $DEPLOY_PRIME_URL"
-  command = "hugo --gc --minify --buildDrafts -b $DEPLOY_PRIME_URL"
+  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 # Here is an example of how to define context-specific
 # environment variables.
 # [context.deploy-preview.environment]
-  # HUGO_BASEURL = "/"
-
-# Branch Deploy context: all deploys that are not from
-# a pull/merge request or from the Production branch
-# will inherit these settings.
-[context.branch-deploy]
-  command = "hugo --gc --minify --buildDrafts -b $DEPLOY_PRIME_URL"
-  # command = "hugo -D --gc --minify -b draft--taupe-frangipane-7e40dd.netlify.app"
+#   HUGO_BASEURL = "/"
 
 # Specific branch context: all deploys from
 # this specific branch will inherit these settings.
-[context.staging] # “staging” is a branch name
-  command = "echo 'staging'"
-  base = "staging"
+# “staging” is the branch name
+[context.staging]
+  command = "hugo --gc --minify --buildDrafts -b $DEPLOY_PRIME_URL"
 
 # Dev context: environment variables set here
 # are available for local development environments
@@ -63,6 +55,10 @@
 # branch context configured.
 # [context.dev.environment]
 #   NODE_ENV = "development"
+
+##############################
+# redirects
+##############################
 
 # Redirects and headers are GLOBAL for all builds – they do not
 # get scoped to contexts no matter where you define them in the file.
