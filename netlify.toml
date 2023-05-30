@@ -6,7 +6,9 @@
   HUGO_VERSION = "0.111.3"
 
 [context.deploy-preview]
-  HUGO_BASEURL = "/"
+  # HUGO_BASEURL = "/"
+  command = "hugo --gc --minify -b taupe-frangipane-7e40dd.netlify.app"
 
 [context.branch-deploy]
-  HUGO_BASEURL = "/"
+  # HUGO_BASEURL = "/"
+  command = "hugo --gc --minify -b taupe-frangipane-7e40dd.netlify.app"
