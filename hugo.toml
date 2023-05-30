@@ -9,7 +9,7 @@ pygmentsCodefences  = true
 pygmentsUseClasses  = true
 
 rssLimit = 10  # Maximum number of items in the RSS feed.
-copyright = "© hautogdoad, LLC" # This message is only used by the RSS template.
+copyright = "© hautogdoad" # This message is only used by the RSS template.
 
 # googleAnalytics = "UA-123-45"
 
@@ -48,20 +48,20 @@ copyright = "© hautogdoad, LLC" # This message is only used by the RSS template
 
 [params]
   homeSubtitle = "Unlimited Human Renaissance"
-  footerCopyright = '&#183;'
+  footerCopyright = 'hautogdoad'
   logo = "headshot.png"
   logolink = "about"
   favicon = 'covers/0166.elites.png'
-  # bgImg = ""  # Homepage background-image URL
+  subscribeURL = "https://www.tinyletter.com/bartholomy"
 
-  featuredPost = 'posts/25.facilitated_variation.md'
-
-  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
-  justifyContent = false  # Set "text-align: justify" to `.content`.
+  # featuredPost = 'posts/32.nietzschean_pedagogy.md'
+  featuredPost = 'posts/12.narrative_consciousness.md'
 
   relatedPosts = true  # Add a related content section to all single posts page
 
   code_copy_button = true # Turn on/off the code-copy-button for code-fields
+  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
+  justifyContent = false  # Set "text-align: justify" to `.content`.
 
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
@@ -70,11 +70,13 @@ copyright = "© hautogdoad, LLC" # This message is only used by the RSS template
   dateformNumTime = "2006.01.02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  # description = ""
+  # opengraph?
+  description = "Neuroscience, psychoanalysis, anthropology, philosophy, and moral critique"
   # images = [""]
 
   # Add custom css
   # customCSS = ["css/foo.css", "css/bar.css"]
+  # bgImg = ""  # Homepage background-image URL
 
 [menu]
 

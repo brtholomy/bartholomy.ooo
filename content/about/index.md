@@ -1,11 +1,17 @@
 ---
-title: "About"
+title: "about"
 date: 2023-05-25T10:30:27-07:00
 draft: true
+image: 'headshot.png'
+thumbnail: 'headshot.png'
 ---
 
-<!-- [see here]({{< ref "posts/narrative-consciousness/#14" >}}) -->
+Yo. I am a guy.
 
-![logo](/logo.png)
+bth@batholomy.ooo
 
-Bartholomy is really cool.
+
+Neuroscience, psychoanalysis, anthropology, philosophy, and moral critique suspended in a swirling dust cloud of earnest poetry: if it's not profound it should at least be funny to watch me try.
+
+
+[subscribe](https://tinyletter.com/bartholomy)
