@@ -10,7 +10,7 @@ Yo. I am a guy.
 
 bth@batholomy.ooo
 
-Test some stuff.
+Test some stuff. Test again.
 
 Neuroscience, psychoanalysis, anthropology, philosophy, and moral critique suspended in a swirling dust cloud of earnest poetry: if it's not profound it should at least be funny to watch me try.
 
