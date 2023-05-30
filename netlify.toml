@@ -55,7 +55,7 @@
 # branch context configured.
 # [context.dev.environment]
 #   NODE_ENV = "development"
-
+f
 ##############################
 # redirects
 ##############################
@@ -65,10 +65,10 @@
 # For context-specific rules, use _headers or _redirects files,
 # which are PER-DEPLOY.
 
-# A basic redirect rule
-# [[redirects]]
-#   from = "/*"
-#   to = "/blog/:splat"
+[[redirects]]
+  from = "/p/*"
+  to = "/posts/:splat"
+  status = 301
 
 # A redirect rule with many of the supported properties
 [[redirects]]
