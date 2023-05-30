@@ -4,14 +4,14 @@ defaultContentLanguage = "en"
 title = "bartholomy"
 theme = "bth-hermit"
 
+# googleAnalytics = "UA-123-45"
+rssLimit = 10  # Maximum number of items in the RSS feed.
+copyright = "© hautogdoad" # This message is only used by the RSS template.
+
 # enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
 
-rssLimit = 10  # Maximum number of items in the RSS feed.
-copyright = "© hautogdoad" # This message is only used by the RSS template.
-
-# googleAnalytics = "UA-123-45"
 
 [author]
   name = "Bartholomy"
@@ -23,12 +23,6 @@ copyright = "© hautogdoad" # This message is only used by the RSS template.
   # nofollowLinks = true
 
 [taxonomies]
-  # hack! this sets the "plural" of tag:
-  # just so I don't have to define my own layouts/_default/series.html I guess
-  # https://www.kiroule.com/article/add-series-taxonomy-to-hugo-theme/
-  # tag = 'series'
-
-  # or maybe I can live with this:
   tag = "tags"
 
 [related]
@@ -36,15 +30,11 @@ copyright = "© hautogdoad" # This message is only used by the RSS template.
   threshold = 80
   toLower = false
 [[related.indices]]
-  name = 'series'
-  weight = 100
-[[related.indices]]
-  name = 'categories'
-  weight = 100
+  name = 'tags'
+  weight = 80
 [[related.indices]]
   name = 'date'
-  weight = 80
-
+  weight = 10
 
 [params]
   homeSubtitle = "Unlimited Human Renaissance"
@@ -54,11 +44,9 @@ copyright = "© hautogdoad" # This message is only used by the RSS template.
   favicon = 'covers/0166.elites.png'
   subscribeURL = "https://www.tinyletter.com/bartholomy"
 
-  # featuredPost = 'posts/32.nietzschean_pedagogy.md'
   featuredPost = 'posts/12.narrative_consciousness.md'
 
   relatedPosts = true  # Add a related content section to all single posts page
-
   code_copy_button = true # Turn on/off the code-copy-button for code-fields
   # Toggling this option needs to rebuild SCSS, requires Hugo extended version
   justifyContent = false  # Set "text-align: justify" to `.content`.
@@ -70,9 +58,8 @@ copyright = "© hautogdoad" # This message is only used by the RSS template.
   dateformNumTime = "2006.01.02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  # opengraph?
   description = "Neuroscience, psychoanalysis, anthropology, philosophy, and moral critique"
-  # images = [""]
+  images = ["headshot.png", "covers/0152.witch_hunt.jpg"]
 
   # Add custom css
   # customCSS = ["css/foo.css", "css/bar.css"]
