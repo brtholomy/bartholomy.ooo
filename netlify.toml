@@ -7,8 +7,9 @@
 
 [context.deploy-preview]
   # HUGO_BASEURL = "/"
-  command = "hugo --gc --minify -b taupe-frangipane-7e40dd.netlify.app"
+  # FIXME: get rid of the -D flag here once I get this figured out:
+  command = "hugo -D --gc --minify -b master--taupe-frangipane-7e40dd.netlify.app"
 
 [context.branch-deploy]
   # HUGO_BASEURL = "/"
-  command = "hugo --gc --minify -b taupe-frangipane-7e40dd.netlify.app"
+  command = "hugo -D --gc --minify -b draft--taupe-frangipane-7e40dd.netlify.app"

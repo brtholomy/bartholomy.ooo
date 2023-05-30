@@ -1,7 +1,7 @@
 ---
 title: "about"
 date: 2023-05-25T10:30:27-07:00
-draft: true
+draft: false
 image: 'headshot.png'
 thumbnail: 'headshot.png'
 ---
