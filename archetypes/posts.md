@@ -6,6 +6,6 @@ draft: true
 date: {{ .Date }}
 place: "Fool's Bluff, Nevada"
 thumbnail: 'thumbnails/0152.witch_hunt.png'
-image: 'covers/0152.witch_hunt.jpg'
+images: ['covers/0152.witch_hunt.jpg']
 tags: ['psychoanalysis']
 ---
