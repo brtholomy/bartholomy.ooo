@@ -104,11 +104,13 @@ enDash = '&mdash;'
 
 # I don't like smart quotes:
 leftDoubleQuote = '"'
-# leftDoubleQuote = '&bdquo;'
-# leftDoubleQuote = '&rdquo;'
 rightDoubleQuote = '"'
+
+# german style:
+# leftDoubleQuote = '&bdquo;'
 # rightDoubleQuote = '&rdquo;'
 
+##########
 # defaults:
 # apostrophe = '&rsquo;'
 # ellipsis = '&hellip;'
