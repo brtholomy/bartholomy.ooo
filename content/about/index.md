@@ -8,7 +8,7 @@ thumbnail: 'headshot.png'
 
 Yo. I am a guy.
 
-bth@batholomy.ooo
+bth@bartholomy.ooo
 
 Test some stuff. Test again.
 
