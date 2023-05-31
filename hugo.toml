@@ -8,19 +8,42 @@ theme = "bth-hermit"
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "© hautogdoad" # This message is only used by the RSS template.
 
-# enableGitInfo = true
-pygmentsCodefences  = true
-pygmentsUseClasses  = true
-
 
 [author]
   name = "Bartholomy"
   url = "about"
 
-[blackfriday]
-  # hrefTargetBlank = true
-  # noreferrerLinks = true
-  # nofollowLinks = true
+[params]
+  #
+  featuredPost = 'posts/12.narrative_consciousness.md'
+
+  # essential settings
+  homeSubtitle = "Unlimited Human Renaissance"
+  footerCopyright = 'hautogdoad'
+  logo = "headshot.png"
+  logolink = "about"
+  favicon = "headshot-zoom.ico"
+  subscribeURL = "https://www.tinyletter.com/bartholomy"
+  relatedPosts = true  # Add a related content section to all single posts page
+  code_copy_button = true # Turn on/off the code-copy-button for code-fields
+  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
+  justifyContent = false  # Set "text-align: justify" to `.content`.
+
+  # dates
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006.01.02"
+  dateformNumYearMon = "2006.01"
+  dateformNumTime = "2006.01.02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "Moral critique, neuroscience, psychoanalysis, anthropology, and philosophy."
+  images = ["headshot.png", "covers/0152.witch_hunt.jpg"]
+
+  # Add custom css
+  # customCSS = ["css/foo.css", "css/bar.css"]
+  # bgImg = ""  # Homepage background-image URL
+
 
 [taxonomies]
   tag = "tags"
@@ -36,37 +59,8 @@ pygmentsUseClasses  = true
   name = 'date'
   weight = 10
 
-[params]
-  homeSubtitle = "Unlimited Human Renaissance"
-  footerCopyright = 'hautogdoad'
-  logo = "headshot.png"
-  logolink = "about"
-  favicon = 'covers/0166.elites.png'
-  subscribeURL = "https://www.tinyletter.com/bartholomy"
-
-  featuredPost = 'posts/12.narrative_consciousness.md'
-
-  relatedPosts = true  # Add a related content section to all single posts page
-  code_copy_button = true # Turn on/off the code-copy-button for code-fields
-  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
-  justifyContent = false  # Set "text-align: justify" to `.content`.
-
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006.01.02"
-  dateformNumYearMon = "2006.01"
-  dateformNumTime = "2006.01.02 15:04 -0700"
-
-  # Metadata mostly used in document's head
-  description = "Neuroscience, psychoanalysis, anthropology, philosophy, and moral critique"
-  images = ["headshot.png", "covers/0152.witch_hunt.jpg"]
-
-  # Add custom css
-  # customCSS = ["css/foo.css", "css/bar.css"]
-  # bgImg = ""  # Homepage background-image URL
 
 [menu]
-
   [[menu.main]]
     name = "posts"
     url = "posts/"
@@ -86,3 +80,59 @@ pygmentsUseClasses  = true
     name = "about"
     url = "about/"
     weight = 40
+
+
+[markup]
+defaultMarkdownHandler = 'goldmark'
+
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+linkifyProtocol = 'https'
+strikethrough = true
+table = true
+taskList = true
+
+# failing, but this is kinda bleeding edge, so that may be it
+[markup.goldmark.extensions.typographer]
+# double dash -- makes mdash:
+enDash = '&mdash;'
+
+# maybe:
+# ellipsis = '...'
+
+# I don't like smart quotes:
+leftDoubleQuote = '"'
+# leftDoubleQuote = '&bdquo;'
+# leftDoubleQuote = '&rdquo;'
+rightDoubleQuote = '"'
+# rightDoubleQuote = '&rdquo;'
+
+# defaults:
+# apostrophe = '&rsquo;'
+# ellipsis = '&hellip;'
+# emDash = '&mdash;'
+# enDash = '&ndash;'
+
+# leftAngleQuote = '&laquo;'
+# leftDoubleQuote = '&ldquo;'
+# leftSingleQuote = '&lsquo;'
+
+# rightAngleQuote = '&raquo;'
+# rightDoubleQuote = '&rdquo;'
+# rightSingleQuote = '&rsquo;'
+
+[markup.goldmark.parser]
+autoHeadingID = true
+autoHeadingIDType = 'github'
+wrapStandAloneImageWithinParagraph = true
+
+[markup.goldmark.parser.attribute]
+block = false
+title = true
+
+[markup.goldmark.renderer]
+hardWraps = false
+unsafe = false
+xhtml = false
