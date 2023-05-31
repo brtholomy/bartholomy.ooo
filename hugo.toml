@@ -1,4 +1,4 @@
-baseURL = "https://bartholomy.ooo/"
+baseURL = "https://www.bartholomy.ooo/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "bartholomy"
@@ -14,7 +14,7 @@ copyright = "© hautogdoad" # This message is only used by the RSS template.
   url = "about"
 
 [params]
-  #
+  # if the post is draft: true, this will currently not break the build, but it won't show up in posts/
   featuredPost = 'posts/12.narrative_consciousness.md'
 
   # essential settings
