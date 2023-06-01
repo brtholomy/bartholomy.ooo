@@ -1,7 +1,7 @@
 # Settings in the [build] context are global and are applied to
 # all contexts unless otherwise overridden by more specific contexts.
 [build]
-  command = "hugo --gc --minify"
+  command = "npm install && hugo --gc --minify"
 
   # Directory to change to before starting a build.
   # This is where we will look for package.json/.nvmrc/etc.
@@ -15,9 +15,15 @@
   # located at the absolute path "root/project/build-output"
   publish = "public"
 
+  # needed for npm crap
+  node_bundler = "esbuild"
+
 [build.environment]
   HUGO_VERSION = "0.112.5"
 
+[functions]
+  directory = "netlify/functions/"
+  node_bundler = "esbuild"
 
 ##############################
 # contexts

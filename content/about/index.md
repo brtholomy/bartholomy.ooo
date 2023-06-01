@@ -12,7 +12,8 @@ bth@bartholomy.ooo
 
 Test some stuff. Test again.
 
-Neuroscience, psychoanalysis, anthropology, philosophy, and moral critique suspended in a swirling dust cloud of earnest poetry: if it's not profound it should at least be funny to watch me try.
-
+Moral critique, neuroscience, psychoanalysis, anthropology, and philosophy suspended in a swirling dust cloud of earnest poetry: if it's not profound, it should at least be fun to watch the waggling beard, puffed cheeks, and prancing cloven feet.
 
 [subscribe](https://tinyletter.com/bartholomy)
+
+If you enjoy my writing and can recognize its rarity, consider [supporting my work](/support/).
