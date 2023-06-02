@@ -23,7 +23,7 @@ copyright = "© hautogdoad" # This message is only used by the RSS template.
   logo = "headshot.png"
   logolink = "about"
   favicon = "headshot-zoom.ico"
-  subscribeURL = "https://www.tinyletter.com/bartholomy"
+  subscribeURL = "/subscribe/"
   relatedPosts = true  # Add a related content section to all single posts page
   code_copy_button = true # Turn on/off the code-copy-button for code-fields
   # Toggling this option needs to rebuild SCSS, requires Hugo extended version
