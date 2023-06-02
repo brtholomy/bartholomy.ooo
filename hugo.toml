@@ -8,6 +8,11 @@ theme = "bth-hermit"
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "© hautogdoad" # This message is only used by the RSS template.
 
+# Keep images in assets/ now, so that I can load them with resources.Get, and
+# then access .MediaType etc. By extending the static dir like this, I can
+# access images in any doc with plain markdown, as though it were loaded into
+# the static dir.
+staticDir = ['static', 'assets']
 
 [author]
   name = "Bartholomy"
