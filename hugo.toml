@@ -4,7 +4,7 @@ defaultContentLanguage = "en"
 title = "bartholomy"
 theme = "bth-hermit"
 
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "G-CXJ7N79PMM"
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "© hautogdoad" # This message is only used by the RSS template.
 
@@ -29,10 +29,10 @@ staticDir = ['static', 'assets']
   logolink = "about"
   favicon = "headshot-zoom.ico"
   subscribeURL = "/subscribe/"
-  relatedPosts = true  # Add a related content section to all single posts page
-  code_copy_button = true # Turn on/off the code-copy-button for code-fields
-  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
-  justifyContent = false  # Set "text-align: justify" to `.content`.
+  relatedPosts = true
+  code_copy_button = true
+  # Toggling this option needs to rebuild SCSS, requires Hugo extended
+  justifyContent = false
 
   # dates
   dateform        = "Jan 2, 2006"
