@@ -2,7 +2,7 @@
 title = "Increscunt Animi"
 year = 2021
 cover = "increscuntanimi.jpg"
-hyperfollowSlug="increscunt-animi"
+link="https://distrokid.com/hyperfollow/bartholomy/increscunt-animi"
 weight = 2
 +++
 
