@@ -5,7 +5,7 @@
 {{< raw >}}
 
 <a href="https://www.amazon.com/dp/1737889404">
-  <img id="book" src="themoraldisease_v5.jpg"/>
+  <img class="book" src="themoraldisease_v5.jpg"/>
 </a>
 
 {{< /raw >}}
