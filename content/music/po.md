@@ -2,7 +2,7 @@
 title = "Power and Oblivion"
 year = 2022
 cover = "powerandoblivion.jpg"
-hyperfollowSlug = "power-and-oblivion"
+link = "https://distrokid.com/hyperfollow/bartholomy/power-and-oblivion"
 weight = 1
 +++
 

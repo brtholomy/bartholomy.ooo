@@ -30,7 +30,7 @@ staticDir = ['static', 'assets']
   favicon = "headshot-zoom.ico"
   subscribeURL = "/subscribe/"
   relatedPosts = true
-  code_copy_button = true
+  code_copy_button = false
   # Toggling this option needs to rebuild SCSS, requires Hugo extended
   justifyContent = false
 

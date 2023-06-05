@@ -2,7 +2,7 @@
 title = "Survivalist Spirals"
 year = 2021
 cover = "survivalistspirals.jpg"
-hyperfollowSlug="survivalist-spirals"
+link="https://distrokid.com/hyperfollow/bartholomy/survivalist-spirals"
 weight = 3
 +++
 
