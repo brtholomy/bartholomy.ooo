@@ -17,6 +17,7 @@ staticDir = ['static', 'assets']
 [author]
   name = "Bartholomy"
   url = "about"
+  email = "yo@bartholomy.ooo"
 
 [params]
   # if the post is draft: true, this will currently not break the build, but it won't show up in posts/
@@ -40,6 +41,7 @@ staticDir = ['static', 'assets']
   dateformNum     = "2006.01.02"
   dateformNumYearMon = "2006.01"
   dateformNumTime = "2006.01.02 15:04 -0700"
+  dateformRFC822 = "Mon, 02 Jan 2006 15:04:05 -0700"
 
   # Metadata mostly used in document's head
   description = "Moral critique, neuroscience, psychoanalysis, anthropology, and philosophy."
