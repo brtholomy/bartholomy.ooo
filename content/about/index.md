@@ -12,4 +12,4 @@ Moral critique, neuroscience, psychoanalysis, anthropology, and philosophy suspe
 
 * [support](/support/)
 
-* bth@bartholomy.ooo
+* yo@bartholomy.ooo
