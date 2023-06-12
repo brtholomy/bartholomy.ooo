@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "_" " " | replaceRE `\d*\.` "" | title }}"
-subTitle: ""
+summary: ""
 slug: "{{ replace .Name "_" "-" | replaceRE `\d*\.` "" }}"
 draft: true
 date: {{ .Date }}
