@@ -1,12 +1,15 @@
-I deeply appreciate the contributions of my readers: I often think of those who have supported my work and believe in its longevity. I cannot succeed without your help.
 
-Because of the simplicity of my lifestyle, it will be put to practical purpose: food, diesel, firewood, arcane books.
+I deeply appreciate the contributions of my readers: I often think of those who have supported my work and believe in its longevity. Your support will help me with the following:
+
+* Writing my next book.
+* Research in collaboration with a neurosurgeon.
+* Teaching meditation and psychoanalysis.
 
 Paying subscribers get:
 
-* Priority in requests for new content
-* Priority in retreats and studentship
-* Priority in correspondence: I will answer your emails
+* Priority in studentship and counseling.
+* Priority in requests for new content.
+* Priority in correspondence: I will answer your emails.
 
 {{< raw >}}
 

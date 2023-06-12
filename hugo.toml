@@ -88,6 +88,18 @@ staticDir = ['static', 'assets']
     url = "about/"
     weight = 40
 
+  # just for reference should I need it:
+  # https://gohugo.io/content-management/menus/#example-site-configuration
+  # [[menu.main]]
+  #   name = "support"
+  #   url = "support/"
+  #   parent = "about"
+
+  # [[menu.main.research]]
+  #   name = "research"
+  #   url = "research/"
+  #   parent = "about"
+
 
 [markup]
 defaultMarkdownHandler = 'goldmark'
