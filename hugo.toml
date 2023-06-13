@@ -29,6 +29,7 @@ staticDir = ['static', 'assets']
   logo = "headshot.png"
   logolink = "about"
   favicon = "headshot-zoom.ico"
+  defaultPlace = "Fool's Bluff, Nevada"
   subscribeURL = "/subscribe/"
   relatedPosts = true
   code_copy_button = false
