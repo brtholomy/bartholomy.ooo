@@ -157,3 +157,7 @@ title = true
 hardWraps = false
 unsafe = false
 xhtml = false
+
+# https://gohugo.io/getting-started/configuration-markup/#highlight
+[markup.highlight]
+style = 'gruvbox'
