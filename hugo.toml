@@ -81,6 +81,52 @@ copyright = "© hautogdoad" # This message is only used by the RSS template.
     url = "about/"
     weight = 40
 
+  [[menu.works]]
+    name = "posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.works]]
+    name = "books"
+    url = "books/"
+    weight = 20
+
+  [[menu.works]]
+    name = "music"
+    url = "music/"
+    weight = 30
+
+  [[menu.info]]
+    name = "subscribe"
+    url = "subscribe/"
+    weight = 10
+
+  [[menu.info]]
+    name = "support"
+    url = "support/"
+    weight = 20
+
+  [[menu.info]]
+    name = "study"
+    url = "study/"
+    weight = 30
+
+  [[menu.info]]
+    name = "about"
+    url = "about/"
+    weight = 40
+
+  # just for reference should I need it:
+  # https://gohugo.io/content-management/menus/#example-site-configuration
+  # [[menu.main]]
+  #   name = "support"
+  #   url = "support/"
+  #   parent = "about"
+
+  # [[menu.main.research]]
+  #   name = "research"
+  #   url = "research/"
+  #   parent = "about"
 
 [markup]
 defaultMarkdownHandler = 'goldmark'
