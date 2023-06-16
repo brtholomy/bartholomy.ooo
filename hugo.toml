@@ -1,20 +1,26 @@
-baseURL = "https://bartholomy.ooo/"
+baseURL = "https://www.bartholomy.ooo/"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "bartholomy"
 theme = "bth-hermit"
 
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "G-CXJ7N79PMM"
 rssLimit = 10  # Maximum number of items in the RSS feed.
 copyright = "© hautogdoad" # This message is only used by the RSS template.
 
+# Keep images in assets/ now, so that I can load them with resources.Get, and
+# then access .MediaType etc. By extending the static dir like this, I can
+# access images in any doc with plain markdown, as though it were loaded into
+# the static dir.
+staticDir = ['static', 'assets']
 
 [author]
   name = "Bartholomy"
   url = "about"
+  email = "yo@bartholomy.ooo"
 
 [params]
-  #
+  # if the post is draft: true, this will currently not break the build, but it won't show up in posts/
   featuredPost = 'posts/12.narrative_consciousness.md'
 
   # essential settings
@@ -23,11 +29,12 @@ copyright = "© hautogdoad" # This message is only used by the RSS template.
   logo = "headshot.png"
   logolink = "about"
   favicon = "headshot-zoom.ico"
-  subscribeURL = "https://www.tinyletter.com/bartholomy"
-  relatedPosts = true  # Add a related content section to all single posts page
-  code_copy_button = true # Turn on/off the code-copy-button for code-fields
-  # Toggling this option needs to rebuild SCSS, requires Hugo extended version
-  justifyContent = false  # Set "text-align: justify" to `.content`.
+  defaultPlace = "Fool's Bluff, Nevada"
+  subscribeURL = "/subscribe/"
+  relatedPosts = true
+  code_copy_button = false
+  # Toggling this option needs to rebuild SCSS, requires Hugo extended
+  justifyContent = false
 
   # dates
   dateform        = "Jan 2, 2006"
@@ -35,6 +42,7 @@ copyright = "© hautogdoad" # This message is only used by the RSS template.
   dateformNum     = "2006.01.02"
   dateformNumYearMon = "2006.01"
   dateformNumTime = "2006.01.02 15:04 -0700"
+  dateformRFC822 = "Mon, 02 Jan 2006 15:04:05 -0700"
 
   # Metadata mostly used in document's head
   description = "Moral critique, neuroscience, psychoanalysis, anthropology, and philosophy."
@@ -58,7 +66,6 @@ copyright = "© hautogdoad" # This message is only used by the RSS template.
 [[related.indices]]
   name = 'date'
   weight = 10
-
 
 [menu]
   [[menu.main]]
@@ -184,3 +191,7 @@ title = true
 hardWraps = false
 unsafe = false
 xhtml = false
+
+# https://gohugo.io/getting-started/configuration-markup/#highlight
+[markup.highlight]
+style = 'gruvbox'
