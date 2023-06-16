@@ -4,4 +4,6 @@ Moral critique, neuroscience, psychoanalysis, anthropology, and philosophy suspe
 
 * [support](/support/)
 
+* [study with me](/study/)
+
 * yo@bartholomy.ooo
