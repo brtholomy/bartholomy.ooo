@@ -67,7 +67,6 @@ staticDir = ['static', 'assets']
   name = 'date'
   weight = 10
 
-
 [menu]
   [[menu.main]]
     name = "posts"
@@ -85,6 +84,41 @@ staticDir = ['static', 'assets']
     weight = 30
 
   [[menu.main]]
+    name = "about"
+    url = "about/"
+    weight = 40
+
+  [[menu.works]]
+    name = "posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.works]]
+    name = "books"
+    url = "books/"
+    weight = 20
+
+  [[menu.works]]
+    name = "music"
+    url = "music/"
+    weight = 30
+
+  [[menu.info]]
+    name = "subscribe"
+    url = "subscribe/"
+    weight = 10
+
+  [[menu.info]]
+    name = "support"
+    url = "support/"
+    weight = 20
+
+  [[menu.info]]
+    name = "study"
+    url = "study/"
+    weight = 30
+
+  [[menu.info]]
     name = "about"
     url = "about/"
     weight = 40
