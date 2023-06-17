@@ -103,10 +103,11 @@ staticDir = ['static', 'assets']
     url = "music/"
     weight = 30
 
-  [[menu.info]]
-    name = "subscribe"
-    url = "subscribe/"
-    weight = 10
+  # now has its own button:
+  # [[menu.info]]
+  #   name = "subscribe"
+  #   url = "subscribe/"
+  #   weight = 10
 
   [[menu.info]]
     name = "support"
@@ -123,16 +124,12 @@ staticDir = ['static', 'assets']
     url = "about/"
     weight = 40
 
-  # just for reference should I need it:
+  # nested list for reference should I need it:
+  # parent = ""
   # https://gohugo.io/content-management/menus/#example-site-configuration
   # [[menu.main]]
   #   name = "support"
   #   url = "support/"
-  #   parent = "about"
-
-  # [[menu.main.research]]
-  #   name = "research"
-  #   url = "research/"
   #   parent = "about"
 
 [markup]
