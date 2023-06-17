@@ -71,11 +71,9 @@
 # For context-specific rules, use _headers or _redirects files,
 # which are PER-DEPLOY.
 
-[[redirects]]
-  from = "/p/*"
-  to = "/posts/:splat"
-  status = 301
+# order matters, since this is effectively a case block:
 
+# hautogdoad redirects:
 [[redirects]]
   from = "/studentship.html"
   to = "/study"
@@ -86,6 +84,41 @@
   to = "/about"
   # FIXME: come up with a replacement, using temporary 302 for now:
   status = 302
+
+# substack redirects:
+[[redirects]]
+  from = "/p/the-camera-always-lies"
+  to = "/posts/no-photo"
+  status = 301
+
+[[redirects]]
+  from = "/p/the-witch-hunt-belongs-to-modernity"
+  to = "/posts/witchhunt"
+  status = 301
+
+[[redirects]]
+  from = "/p/we-did-it-not-nudge"
+  to = "/posts/nudge"
+  status = 301
+
+[[redirects]]
+  from = "/p/the-elites-didnt-do-it-either"
+  to = "/posts/the-elites"
+  status = 301
+
+[[redirects]]
+  from = "/p/babyboomers"
+  to = "/posts/decrepitude"
+  status = 301
+
+# global substack redirect:
+# NOTE: this is a case switch catch all, must go at the end:
+[[redirects]]
+  from = "/p/*"
+  to = "/posts/:splat"
+  status = 301
+
+################ default stuff for reference
 
 # A redirect rule with many of the supported properties
 [[redirects]]
