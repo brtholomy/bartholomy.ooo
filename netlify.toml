@@ -76,6 +76,17 @@
   to = "/posts/:splat"
   status = 301
 
+[[redirects]]
+  from = "/studentship.html"
+  to = "/study"
+  status = 301
+
+[[redirects]]
+  from = "/research.html"
+  to = "/about"
+  # FIXME: come up with a replacement, using temporary 302 for now:
+  status = 302
+
 # A redirect rule with many of the supported properties
 [[redirects]]
   from = "/old-path"
