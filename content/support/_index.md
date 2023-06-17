@@ -1,13 +1,13 @@
 
 I deeply appreciate the contributions of my readers: I often think of those who have supported my work and believe in its longevity. Your support will help me with the following:
 
-* Writing my next book.
+* [Writing](/books) my next book.
+* [Teaching](/study) meditation and psychoanalysis.
 * Research in collaboration with a neurosurgeon.
-* Teaching meditation and psychoanalysis.
 
 Paying subscribers get:
 
-* Priority in studentship and counseling.
+* Priority in studentship and consultation.
 * Priority in requests for new content.
 * Priority in correspondence: I will answer your emails.
 
