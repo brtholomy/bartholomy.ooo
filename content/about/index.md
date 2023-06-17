@@ -6,4 +6,8 @@ Moral critique, neuroscience, psychoanalysis, anthropology, and philosophy suspe
 
 * [study with me](/study/)
 
-* yo@bartholomy.ooo
+* If you’re serious about collaboration, contact me: yo@bartholomy.ooo
+
+---
+
+As for [what I look like...](/posts/no-photo/)
