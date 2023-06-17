@@ -21,7 +21,7 @@ staticDir = ['static', 'assets']
 
 [params]
   # if the post is draft: true, this will currently not break the build, but it won't show up in posts/
-  featuredPost = 'posts/12.narrative_consciousness.md'
+  featuredPost = 'posts/03.apperceptive_consciousness.md'
 
   # essential settings
   homeSubtitle = "Unlimited Human Renaissance"
