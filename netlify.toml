@@ -116,6 +116,16 @@
   to = "/posts/decrepitude"
   status = 301
 
+[[redirects]]
+  from = "/p/babyboomers-podcast"
+  to = "/posts/decrepitude-podcast"
+  status = 301
+
+[[redirects]]
+  from = "/p/we-did-it-not-nudge-ba6"
+  to = "/posts/nudge-podcast"
+  status = 301
+
 # global substack redirect:
 # NOTE: this is a case switch catch all, must go at the end:
 [[redirects]]
