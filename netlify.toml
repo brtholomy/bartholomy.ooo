@@ -87,6 +87,11 @@
 
 # substack redirects:
 [[redirects]]
+  from = "/feed"
+  to = "/posts/index.xml"
+  status = 301
+
+[[redirects]]
   from = "/p/the-circularity-of-nietzschean-pedagogy"
   to = "/posts/nietzschean-pedagogy"
   status = 301
