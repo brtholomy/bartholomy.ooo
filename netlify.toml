@@ -73,6 +73,7 @@
 
 # order matters, since this is effectively a case block:
 
+################
 # hautogdoad redirects:
 [[redirects]]
   from = "/studentship.html"
@@ -85,12 +86,14 @@
   # FIXME: come up with a replacement, using temporary 302 for now:
   status = 302
 
+################
 # substack redirects:
 [[redirects]]
   from = "/feed"
   to = "/posts/index.xml"
   status = 301
 
+# renamed slugs
 [[redirects]]
   from = "/p/the-circularity-of-nietzschean-pedagogy"
   to = "/posts/nietzschean-pedagogy"
@@ -130,6 +133,29 @@
   from = "/p/we-did-it-not-nudge-ba6"
   to = "/posts/nudge-podcast"
   status = 301
+
+# substack posts not reproduced
+# discovered via https://search.google.com/search-console/index?resource_id=sc-domain%253Abartholomy.ooo
+
+[[redirects]]
+  from = "/p/talk-to-me"
+  to = "/about/"
+  status = 302
+
+[[redirects]]
+  from = "/p/masshysteria-podcast"
+  to = "/posts/masshysteria"
+  status = 302
+
+[[redirects]]
+  from = "/p/ohms"
+  to = "/music"
+  status = 302
+
+[[redirects]]
+  from = "/p/leukocytic-acidic"
+  to = "/music"
+  status = 302
 
 # global substack redirect:
 # NOTE: this is a case switch catch all, must go at the end:
