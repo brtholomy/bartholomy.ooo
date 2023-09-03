@@ -2,7 +2,7 @@ Moral critique, neuroscience, psychoanalysis, anthropology, and philosophy suspe
 
 ---
 
-I'm a New York psychoanalyst by training, a Silicon Valley engineer by necessity, and a meditation teacher by inclination. I currently live off grid in the high desert of western North America: as such I'm also a redneck, and alongside my ambitions in hiphop it can seem like an impossible set of contradictions, but it makes sense to me.
+I'm a New York psychoanalyst by training, a Silicon Valley engineer by necessity, and a meditation teacher by inclination. I currently live off grid in the high desert of western North America: as such I'm also a redneck, and alongside my ambitions in hiphop it can seem like an impossible set of contradictions, that in at least one of those endeavors I must be a ridiculous fraud. Or perhaps all of them? But it makes sense to me, because every bit of my path I was forced into like a rivulet is forced into a river.
 
 ---
 
@@ -17,3 +17,4 @@ I'm a New York psychoanalyst by training, a Silicon Valley engineer by necessity
 ---
 
 As for [what I look like...](/posts/no-photo/)
+
