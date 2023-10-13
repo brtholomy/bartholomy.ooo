@@ -52,7 +52,7 @@
 # this specific branch will inherit these settings.
 # “staging” is the branch name
 [context.staging]
-  command = "hugo --gc --minify --buildDrafts -b $DEPLOY_PRIME_URL"
+  command = "hugo --gc --minify --buildDrafts --buildFuture -b $DEPLOY_PRIME_URL"
 
 # Dev context: environment variables set here
 # are available for local development environments
@@ -248,3 +248,4 @@
 #   command = "yarn start"
 #   port = 8888
 #   publish = "dist"j
+
