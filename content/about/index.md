@@ -6,13 +6,15 @@ I'm a New York psychoanalyst by training, a Silicon Valley engineer by necessity
 
 ---
 
-* [subscribe](/subscribe/)
+Talk to me: yo@bartholomy.ooo. Ask a good question, receive a good answer.
 
-* [support](/support/)
+---
 
-* [study with me](/study/)
+* [subscribe to this shit](/subscribe/)
 
-* yo@bartholomy.ooo
+* [support this shit](/support/)
+
+* [study this shit](/study/)
 
 ---
 

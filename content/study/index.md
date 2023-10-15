@@ -4,7 +4,7 @@ I teach meditation on a remote basis. My methods are effective because they are 
 
 * Meditation: 20+ years of practice. I've studied within the Zen, Tibetan, yogic, and Daoist disciplines: from each I learned something essential I'm prepared to pass on.
 * Psychoanalysis: I have postgraduate-level training within New York psychoanalytic circles.
-* Engineering: I'm an engineer and science writer. My goal has been to approach spirituality with the precision and robust standards more commonly found in this field.
+* Engineering: I'm a former software engineer and lifelong student. My goal has been to approach spirituality with the precision and robust standards more commonly found in this field.
 
 ## Method
 
@@ -23,3 +23,4 @@ The fee for the initial consultation session is $100.
 Consider this question: what do you want from meditation?
 
 Please indicate your timezone and whether you prefer a weekend or weekday timeslot. Send your response to: apply@bartholomy.ooo
+
