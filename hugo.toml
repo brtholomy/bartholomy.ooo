@@ -145,12 +145,17 @@ taskList = true
 # double dash -- makes mdash:
 enDash = '&mdash;'
 
-# maybe:
-# ellipsis = '...'
+# no collapsed &hellip;
+ellipsis = '...'
 
 # I don't like smart quotes:
-leftDoubleQuote = '"'
 rightDoubleQuote = '"'
+rightSingleQuote = "'"
+rightAngleQuote = "'"
+leftDoubleQuote = '"'
+leftSingleQuote = "'"
+leftAngleQuote = "'"
+apostrophe = "'"
 
 # german style:
 # leftDoubleQuote = '&bdquo;'
