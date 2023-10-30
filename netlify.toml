@@ -30,7 +30,7 @@
 ##############################
 
 # Production context: all deploys from the Production branch
-# set in your site’s Branches settings in the UI will inherit
+# set in your site's Branches settings in the UI will inherit
 # these settings. You can define environment variables
 # here but we recommend using the Netlify UI for sensitive
 # values to keep them out of your source repository.
@@ -175,7 +175,7 @@
   # define a different one.
   status = 301
 
-  # By default, redirects won’t be applied if there’s a file
+  # By default, redirects won't be applied if there's a file
   # with the same path as the one defined in the `from` property.
   # Setting `force` to `true` will make the redirect rule
   # take precedence over any existing files.
@@ -199,7 +199,7 @@
     X-From = "Netlify"
     X-Api-Key = "some-api-key-string"
 
-# Redirects for role-based access control don’t use the 'to' property.
+# Redirects for role-based access control don't use the 'to' property.
 # [[redirects]]
 #   from = "/gated-path"
 #   status = 200
@@ -237,7 +237,7 @@
 #   # Directory with serverless functions, including background
 #   # functions, to deploy. This is relative to the base directory
 #   # if one has been set, or the root directory if
-#   # a base hasn’t been set.
+#   # a base hasn't been set.
 #   directory = "functions/"
 
 # Use [dev] to set configuration overrides for local
