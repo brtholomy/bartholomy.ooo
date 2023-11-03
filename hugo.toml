@@ -40,10 +40,7 @@ staticDir = ['static', 'assets']
   subscribeURL = "/subscribe/"
 
   # flags
-  relatedPosts = true
   code_copy_button = false
-  # Toggling this option needs to rebuild SCSS, requires Hugo extended
-  justifyContent = false
 
   # dates
   dateformNum     = "2006.01.02"
