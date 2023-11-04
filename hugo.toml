@@ -16,7 +16,7 @@ copyright = "hautogdoad"
 # the static dir.
 staticDir = ['static', 'assets']
 
-[author]
+[params.author]
   name = "Bartholomy"
   url = "about"
   email = "yo@bartholomy.ooo"
