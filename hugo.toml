@@ -24,7 +24,7 @@ staticDir = ['static', 'assets']
 [params]
   # NOTE: .Site.GetPage needs filename, not slug:
   # if the post is draft: true, this will currently not break the build, but it won't show up in posts/
-  featuredPost = 'posts/07.multivariate_causality.md'
+  featuredPost = 'posts/11.neuron_swim.md'
 
   # meta stuff
   homeSubtitle = "Unlimited Human Renaissance"
@@ -190,4 +190,3 @@ xhtml = false
 # https://gohugo.io/getting-started/configuration-markup/#highlight
 [markup.highlight]
 style = 'gruvbox'
-
