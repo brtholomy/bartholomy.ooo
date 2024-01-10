@@ -1,4 +1,6 @@
-I'm a writer, teacher, and researcher living off grid in the high desert of North America.
+I'm a writer, teacher, and researcher living offgrid in the high desert of northern Nevada.
+
+![roof](/roof.png)
 
 I spent most of my twenties searching for my teachers. I first learned real meditative discipline from an Indian guru. Later I studied with a Sufi musical master. Later still I was able to explore Native American traditions: peyote, ayahuasca, and sweatlodge being the most influential ceremonies. Kundalini Yoga and its more rigorous prana training were important in my development. I was also able to find an excellent teacher of Qigong and Liuhebafa, which I studied for 7 years. I dabbled in Zen like every other lost boy, but it was the Daoists from whom I learned. Eventually I was drawn to the psychoanalytic scene in NYC, and studied formally and informally under an excellent teacher connected to the Lacanian schools of Paris.
 
@@ -17,4 +19,3 @@ By my thirties I had grown tired of living below the poverty line in expensive c
 ---
 
 As for [what I look like...](/posts/no-photo/)
-
