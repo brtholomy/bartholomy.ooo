@@ -2,9 +2,9 @@ I teach meditation and psychoanalysis: with these tools I can help you grow into
 
 ## Goals
 
-* We will address *anxiety*: most of my students suffer from some form of crippling self-doubt and hypervigilance, which must be realigned. Rather than lull it to sleep with more soporifics, we will consider your anxiety a functional response to unhealthy conditions, which can be gradually changed.
-* We will address *despair*: most of my students suffer from a sense of meaninglessness, which must be taken seriously. Rather than feed you more premature gratification and buyer's remorse, my method allows the kind of gentle emptiness which draws out feelings of futility and pointlessness, so that they may be addressed like the ancestral guardians they are.
-* We will address *confusion*: most of my students suffer from a sense that the answers are out of reach or nonexistent. This is some of the hardest work we'll do, because the solution is always unique: a spiritual life is hungry fickle fire.
+* We will address *anxiety*: most of us suffer from some form of chronic doubt and useless hypervigilance, which must be realigned. Rather than lull it to sleep with more soporifics, we will consider your anxiety a functional response to unhealthy conditions, which can be gradually changed.
+* We will address *despair*: most of us suffer from a sense of meaninglessness, which must be taken seriously. Rather than feed you more premature gratification and buyer's remorse, my method allows the kind of gentle emptiness which draws out feelings of futility and pointlessness, so that they may be addressed like the ancestral guardians they are.
+* We will address *confusion*: most of us suffer from a sense that the answers are out of reach or nonexistent. This is some of the hardest work we'll do, because the solution is always unique: a spiritual life is hungry fickle fire.
 
 ![desert](/landscape.jpg)
 
@@ -32,6 +32,6 @@ Remote sessions weekly. Personalized desert retreats available: let the big blue
 
 Sliding scale fees. Scholarships and discounts for those who qualify. If you want to work with me, say so: I will teach anyone who's passionate.
 
-## Apply
+## Contact
 
-apply@bartholomy.ooo
+yo@bartholomy.ooo

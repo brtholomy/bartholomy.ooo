@@ -103,14 +103,15 @@ staticDir = ['static', 'assets']
   #   weight = 10
 
   [[menu.info]]
-    name = "support"
-    url = "support/"
-    weight = 20
-
-  [[menu.info]]
     name = "study"
     url = "study/"
-    weight = 30
+    weight = 20
+
+  # remove for now
+  # [[menu.info]]
+  #   name = "support"
+  #   url = "support/"
+  #   weight = 30
 
   [[menu.info]]
     name = "about"
