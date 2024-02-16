@@ -24,7 +24,7 @@ staticDir = ['static', 'assets']
 [params]
   # NOTE: .Site.GetPage needs filename, not slug:
   # if the post is draft: true, this will currently not break the build, but it won't show up in posts/
-  featuredPost = 'posts/06.coherence.md'
+  featuredPost = 'posts/36.apesick.md'
 
   # meta stuff
   homeSubtitle = "Unlimited Human Renaissance"
