@@ -4,6 +4,10 @@ defaultContentLanguage = "en"
 title = "bartholomy"
 theme = "bth-hermit"
 
+# <link rel="preconnect" href="https://fonts.googleapis.com">
+# <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+# <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+
 googleAnalytics = "G-CXJ7N79PMM"
 # no effect in my custom rss template, currently.
 # rssLimit = 10  # Maximum number of items in the RSS feed.
