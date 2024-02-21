@@ -21,4 +21,10 @@ Paying subscribers get:
     </a>
   </div>
 
+  <div class="stripe">
+      <img src="/stripe.svg"/>
+  </div>
+
 {{< /raw >}}
+
+<!-- ![powered by stripe](/stripe.svg "Powered by Stripe") -->
