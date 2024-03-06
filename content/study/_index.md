@@ -1,12 +1,12 @@
-I teach meditation and psychoanalysis: with these tools I can help you grow into a powerful human creature.
+[Book a free consultation](https://bartholomy.setmore.com/)
 
-## Goals
-
-* We will address *anxiety*: most of us suffer from some form of chronic doubt and useless hypervigilance, which must be realigned. Rather than lull it to sleep with more soporifics, we will consider your anxiety a functional response to unhealthy conditions, which can be gradually changed.
-* We will address *despair*: most of us suffer from a sense of meaninglessness, which must be taken seriously. Rather than feed you more premature gratification and buyer's remorse, my method allows the kind of gentle emptiness which draws out feelings of futility and pointlessness, so that they may be addressed like the ancestral guardians they are.
-* We will address *confusion*: most of us suffer from a sense that the answers are out of reach or nonexistent. This is some of the hardest work we'll do, because the solution is always unique: a spiritual life is hungry fickle fire.
+I teach meditation, psychoanalysis, and psychedelic intervention: with these tools I can help you grow into a powerful human creature. I am at your service.
 
 ![desert](/landscape.jpg)
+
+## Psychedelia
+
+There's a growing mainstream acceptance of what has been obvious to many of us for a long time: episodic psychedelic intervention by a qualified and mature practitioner is one of the most effective treatments for a variety of depressions, addictions, and traumas. Some of the exotic metabolic paths invoked by these substances actually stimulate neural regrowth within core areas responsible for long-term memory, emotive association, and sense of self: in fact they're considered essential medicines for human sanity in their traditional contexts. There's no better time than the present to find your path.
 
 ## Meditation
 
@@ -22,16 +22,27 @@ When these methods work together, you should become more incisive yet receptive,
 
 * Meditation: 20+ years of practice. I've studied within the Buddhist, Yogic, Native American, and Daoist disciplines: from each I learned something essential I'm prepared to pass on.
 * Psychoanalysis: I have postgraduate-level training within New York psychoanalytic circles, with direct lineage to Lacan.
+* Psychedelia: I've been trained in the use of Peyote both with the Navajo of Arizona and the Huichol of Mexico. I learned a great deal from the Ayahausceros of Peru.
 * Engineering: I'm a former software engineer and lifelong student of practical engineering, including offgrid living. I try to approach spirituality with the precision and robustness more commonly found in these fields.
 
 ![doors](/doors.png)
 
 ## Details
 
-Remote sessions weekly. Personalized desert retreats available: let the big blue sky and the yellow dirt transform you. We will camp, meditate, walk, talk, and work.
+- Video sessions weekly.
 
-Sliding scale fees. Scholarships and discounts for those who qualify. If you want to work with me, say so: I will teach anyone who's passionate.
+- Desert retreats semi-annually: let the big blue sky and the yellow dirt transform you. We will make medicine, meditate, walk, talk, and work.
 
-## Contact
+- Sliding scale fees. Scholarships and discounts for those who qualify. If you want to work with me, say so: I will teach anyone who's passionate.
 
-yo@bartholomy.ooo
+{{< raw >}}
+
+  <div class="action_button">
+    <a href="https://bartholomy.setmore.com/">
+      <p>
+          Book a free consultation
+      </p>
+    </a>
+  </div>
+
+{{< /raw >}}
