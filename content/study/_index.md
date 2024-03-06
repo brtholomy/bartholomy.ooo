@@ -1,3 +1,5 @@
+[Book a free consultation](https://bartholomy.setmore.com/)
+
 I teach meditation, psychoanalysis, and psychedelic intervention: with these tools I can help you grow into a powerful human creature. I am at your service.
 
 ![desert](/landscape.jpg)
@@ -33,6 +35,14 @@ When these methods work together, you should become more incisive yet receptive,
 
 - Sliding scale fees. Scholarships and discounts for those who qualify. If you want to work with me, say so: I will teach anyone who's passionate.
 
-## Contact
+{{< raw >}}
 
-[Book a free consultation](https://bartholomy.setmore.com/beta/book?step=time-slot&products=b72af6bd-73f2-4784-9ed3-4c8897d5b58d&staff=6cfdce59-41e9-4963-8cf6-b549219397f8&staffSelected=true)
+  <div class="action_button">
+    <a href="https://bartholomy.setmore.com/">
+      <p>
+          Book a free consultation
+      </p>
+    </a>
+  </div>
+
+{{< /raw >}}
