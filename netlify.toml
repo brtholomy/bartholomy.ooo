@@ -16,6 +16,7 @@
   publish = "public"
 
   # needed for npm crap
+  # NOTE: node 20.x AWS environment set in the netlify UI
   node_bundler = "esbuild"
 
 [build.environment]
@@ -248,4 +249,3 @@
 #   command = "yarn start"
 #   port = 8888
 #   publish = "dist"j
-
