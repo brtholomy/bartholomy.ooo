@@ -3,13 +3,13 @@ I deeply appreciate the contributions of my readers: I often think of those who 
 
 * [Writing](/books) my next book.
 * [Teaching](/study) meditation and psychoanalysis.
-* Research in collaboration with a neurosurgeon.
+* Work I do locally treating addiction and PTSD.
 
 Paying subscribers get:
 
-* Priority in studentship and consultation.
+* Priority in consultation.
+* Priority in upcoming retreats.
 * Priority in requests for new content.
-* Priority in correspondence: I will answer your emails.
 
 {{< raw >}}
 
