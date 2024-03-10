@@ -34,6 +34,7 @@ staticDir = ['static', 'assets']
   # .Page.Params.Description := description without subtitle
   # .Page.Params.Summary := description as subtitle
   description = "Moral critique, neuroscience, psychoanalysis, anthropology, and philosophy."
+  themeColor = "#c65108"
   images = ["headshot.png", "covers/0152.witch_hunt.jpg"]
   logo = "headshot_150px.png"
   logolink = "/posts/no-photo/"
