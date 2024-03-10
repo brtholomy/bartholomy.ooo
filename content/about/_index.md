@@ -1,4 +1,8 @@
-Bartholomy is a teacher, psychoanalyst, and research engineer living offgrid in the high desert of Nevada.
+---
+description: "Bartholomy teaches meditation, psychoanalysis, and psychedelic intervention."
+---
+
+Bartholomy teaches meditation, psychoanalysis, and psychedelic intervention. He lives in the high desert of Nevada.
 
 {{< raw >}}
 
