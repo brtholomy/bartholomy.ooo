@@ -75,6 +75,14 @@
 # order matters, since this is effectively a case block:
 
 ################
+# shortcut redirects:
+# Foundations of Human Worth:
+[[redirects]]
+  from = "/fhw"
+  to = "https://www.youtube.com/watch?v=d_VDr74eTso&list=OLAK5uy_njh3HP7nGW5qjKb0RHfYlfHLdEM2Vdn9E&index=4"
+  status = 301
+
+################
 # hautogdoad redirects:
 [[redirects]]
   from = "/studentship.html"
