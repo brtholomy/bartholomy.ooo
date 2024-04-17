@@ -1,21 +1,24 @@
+# candidates
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+med/
 
-# Candidates
+030.breath.md
 
-1019.hoffman
+17.percolation.md
+
+25.facilitated_variation.md
+
+13.evolutionary.md
+
+---
+
+journal/
 
 1081.loneliness
 
 0564.acoustic_thought.md
 
-1078.hypnagogic_bio
-
 1084.feminine
-
-clownworld
 
 1034.sacks
 
@@ -27,25 +30,13 @@ clownworld
 
 ---
 
-med/
-
-04.whatismed.md
-
-05.breath.md
-
-17.percolation.md
-
-25.facilitated_variation.md
-
-13.evolutionary.md
-
----
-
-## From AT:
+## from apesick:
 
 truth
 
 human nature
+
+clownworld
 
 ---
 
