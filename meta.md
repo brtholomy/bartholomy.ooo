@@ -2,6 +2,8 @@
 
 med/
 
+025.whatismed.md
+
 030.breath.md
 
 17.percolation.md
@@ -13,6 +15,10 @@ med/
 ---
 
 journal/
+
+1052.wenzi.md
+
+1036.criticality.md
 
 1081.loneliness
 
