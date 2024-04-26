@@ -20,10 +20,10 @@ My goal is to address emergent 21st century problems with the power of *humanita
 
 ---
 
-* Talk to me: yo@bartholomy.ooo
-
 * [study with me](/study/)
 
 * [support my work](/support/)
 
 * [subscribe](/subscribe/)
+
+* yo@bartholomy.ooo
