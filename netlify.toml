@@ -82,6 +82,11 @@
   to = "https://www.youtube.com/watch?v=d_VDr74eTso&list=OLAK5uy_njh3HP7nGW5qjKb0RHfYlfHLdEM2Vdn9E&index=4"
   status = 301
 
+[[redirects]]
+  from = "/consult"
+  to = "https://calendar.app.google/DeM2JqLQsZrmDC5k7"
+  status = 302
+
 ################
 # hautogdoad redirects:
 [[redirects]]
