@@ -4,7 +4,7 @@ description: "Bartholomy teaches meditation, psychoanalysis, and psychedelic int
 
 Bartholomy teaches meditation, psychoanalysis, and psychedelic intervention. He lives in the high desert of Nevada.
 
-[Book a free consultation](https://bartholomy.setmore.com/)
+[Book a free consultation](https://www.bartholomy.ooo/consult)
 
 {{< raw >}}
 
