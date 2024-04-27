@@ -1,4 +1,4 @@
-[Book a free consultation](https://bartholomy.setmore.com/)
+[Book a free consultation](https://www.bartholomy.ooo/consult)
 
 I teach meditation, psychoanalysis, and psychedelic intervention: with these tools I can help you grow into a powerful human creature. I am at your service.
 
@@ -38,7 +38,7 @@ When these methods work together, you should become more incisive yet receptive,
 {{< raw >}}
 
   <div class="action_button">
-    <a href="https://bartholomy.setmore.com/">
+    <a href="https://www.bartholomy.ooo/consult">
       <p>
           Book a free consultation
       </p>
