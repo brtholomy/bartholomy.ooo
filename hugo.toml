@@ -18,7 +18,7 @@ staticDir = ['static', 'assets']
 
 [params.author]
   name = "Bartholomy"
-  url = "about"
+  url = "/about/privacy"
   email = "yo@bartholomy.ooo"
 
 [params]
