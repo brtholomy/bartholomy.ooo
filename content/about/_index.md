@@ -27,3 +27,7 @@ My goal is to address emergent 21st century problems with the power of *humanita
 * [subscribe](/subscribe/)
 
 * yo@bartholomy.ooo
+
+---
+
+[privacy policy](/about/privacy)
