@@ -4,11 +4,13 @@ defaultContentLanguage = "en"
 title = "bartholomy"
 theme = "bth-hermit"
 
-googleAnalytics = "G-CXJ7N79PMM"
-# no effect in my custom rss template, currently.
-# rssLimit = 10  # Maximum number of items in the RSS feed.
 # use &#169; {{ now.Format "2006" }} preceeding:
 copyright = "hautogdoad"
+
+googleAnalytics = "G-CXJ7N79PMM"
+
+# no effect in my custom rss template, currently.
+# rssLimit = 10  # Maximum number of items in the RSS feed.
 
 # Keep images in assets/ now, so that I can load them with resources.Get, and
 # then access .MediaType etc. By extending the static dir like this, I can
@@ -18,7 +20,7 @@ staticDir = ['static', 'assets']
 
 [params.author]
   name = "Bartholomy"
-  url = "/about/privacy"
+  url = "/about"
   email = "yo@bartholomy.ooo"
 
 [params]
@@ -35,12 +37,14 @@ staticDir = ['static', 'assets']
   # .Page.Params.Summary := description as subtitle
   description = "Moral critique, neuroscience, psychoanalysis, anthropology, and philosophy."
   themeColor = "#c65108"
+  favicon = "headshot-zoom.ico"
   images = ["headshot.png", "covers/0152.witch_hunt.jpg"]
+
+  # footer
   logo = "headshot_150px.png"
   logolink = "/about"
-  favicon = "headshot-zoom.ico"
+  copyrightlink = "/about/privacy/"
   defaultPlace = "Fool's Bluff, Nevada"
-  subscribeURL = "/subscribe/"
 
   # flags
   code_copy_button = false
