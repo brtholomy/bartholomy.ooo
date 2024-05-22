@@ -1,5 +1,12 @@
 # candidates
 
+surveil piece
+clownworld
+wenzi
+sinbad
+
+---
+
 med/
 
 025.whatismed.md
