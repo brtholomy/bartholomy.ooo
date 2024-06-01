@@ -1,4 +1,3 @@
-<!-- ![recursion](/covers/0209_recursion_tiled_1200px.jpg) -->
 ![recursion](/covers/dripping_brain.png)
 
 [Bartholomy](/about) teaches meditation, psychoanalysis, and psychedelic intervention: with these tools you'll grow into a powerful human creature.
