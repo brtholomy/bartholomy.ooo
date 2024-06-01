@@ -30,22 +30,13 @@ There's a growing mainstream acceptance of what has been obvious to many of us f
 
 ![desert](/landscape.jpg)
 
-## Background
-
-* Meditation: 20+ years of practice. I've studied within the Buddhist, Yogic, Native American, and Daoist disciplines: from each I learned something essential I'm prepared to pass on.
-* Psychoanalysis: I have postgraduate-level training within New York psychoanalytic circles, with direct lineage to Lacan.
-* Psychedelia: I've been trained in the use of Peyote both with the Navajo of Arizona and the Huichol of Mexico. I learned a great deal from the Ayahausceros of Peru.
-* Engineering: I'm a former software engineer and lifelong student of practical engineering, including offgrid living. I try to approach spirituality with the precision and robustness more commonly found in these fields.
-
-![doors](/doors.png)
-
 ## Details
 
 - Video sessions weekly.
 
-- Desert retreats semi-annually: let the big blue sky and the yellow dirt transform you. We will make medicine, meditate, walk, talk, and work.
+- Desert retreats semi-annually.
 
-- Sliding scale fees. Scholarships and discounts for those who qualify. If you want to work with me, say so: I will teach anyone who's passionate.
+- Sliding scale fees.
 
 {{< raw >}}
 
