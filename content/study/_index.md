@@ -24,7 +24,7 @@ We study meditation as a form of *remedial neuronal training*. We're interested 
 
 Training in unconscious semantics is one of the most powerful weapons available in the war for spiritual growth. I can teach you to employ that vast domain of intelligence and intuition which most of us cannot reliably access.
 
-[Learn about psychoanalysis](/posts/walking/)
+[Learn about psychoanalysis](/posts/uncanny/)
 
 ## Psychedelia
 
