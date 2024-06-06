@@ -1,4 +1,4 @@
-![brain](/covers/dripping_brain.jpg)
+![brain](/covers/brain_electric_flag.jpg)
 
 [Bartholomy](/about) teaches meditation, psychoanalysis, and psychedelic intervention to people around the world: with these tools you'll grow into a powerful human creature.
 
