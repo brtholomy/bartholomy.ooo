@@ -8,7 +8,7 @@ Bartholomy teaches meditation, psychoanalysis, and psychedelic intervention. He 
 
 {{< raw >}}
 
-<img class="narrow" src="/jerk.jpg"/>
+<img class="narrow" src="/jerk_circle_color.png"/>
 
 {{< /raw >}}
 
