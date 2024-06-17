@@ -5,7 +5,7 @@
 {{< raw >}}
 
   <div class="action_button">
-    <a href="/consult" onclick="gtagConversionEventOutboundClick('/consult'); return false;">
+    <a href="/consult" onclick="gtagConversionEventOutboundClick('/consult');">
       <p>
           Book a free consultation
       </p>
@@ -43,7 +43,7 @@ Episodic psychedelic intervention by a qualified practitioner is one of the most
 {{< raw >}}
 
   <div class="action_button">
-    <a href="/consult" onclick="gtagConversionEventOutboundClick('/consult'); return false;">
+    <a href="/consult" onclick="gtagConversionEventOutboundClick('/consult');">
       <p>
           Book a free consultation
       </p>
