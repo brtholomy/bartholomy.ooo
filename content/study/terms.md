@@ -18,13 +18,17 @@ Clients pay for remote video sessions and/or phone calls. Clients are expected t
 
 ## Privacy
 
-All client information is strictly confidential. Bartholomy and hautogdoad LLC does not sell client information nor discuss any personal details of a client outside of sessions with that same client.
+All client information is strictly confidential. Bartholomy and hautogdoad LLC does not sell client information.
 
 See our full [privacy policy](/about/privacy).
 
 ## Cancellation
 
 A client may cancel a session up to 48 hours in advance. Notice should be provided via email to the address provided. Sessions not canceled prior to 48 hours are non-refundable.
+
+## Termination of service
+
+Bartholomy and hautogdoad LLC reserve the right to terminate any session at any time, for any reason. All refunds are solely at the discretion of Bartholomy and hautogdoad LLC.
 
 ## Support
 
