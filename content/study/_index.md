@@ -1,4 +1,4 @@
-![brain](/covers/brain_electric_flag_dither.jpg)
+![brain](/covers/brain_electric_flag_28kb.jpg)
 
 [Bartholomy](/about) teaches meditation, psychoanalysis, and psychedelic intervention to people around the world: with these tools you'll grow into a powerful human creature.
 
