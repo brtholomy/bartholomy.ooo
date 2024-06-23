@@ -39,6 +39,7 @@ Episodic psychedelic intervention by a qualified practitioner is one of the most
 * Video sessions weekly.
 * Desert retreats semi-annually.
 * Sliding scale fees.
+* Se habla español, más o menos. Deutsch kann ich.
 
 {{< raw >}}
 
