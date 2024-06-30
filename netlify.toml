@@ -82,9 +82,11 @@
   to = "https://www.youtube.com/watch?v=d_VDr74eTso&list=OLAK5uy_njh3HP7nGW5qjKb0RHfYlfHLdEM2Vdn9E&index=4"
   status = 301
 
+# gcal vs setmore:
 [[redirects]]
   from = "/consult"
-  to = "https://calendar.app.google/DeM2JqLQsZrmDC5k7"
+  # to = "https://calendar.app.google/DeM2JqLQsZrmDC5k7"
+  to = "https://bartholomy.setmore.com/beta/book?step=time-slot&products=b72af6bd-73f2-4784-9ed3-4c8897d5b58d&type=service&staff=6cfdce59-41e9-4963-8cf6-b549219397f8&staffSelected=true"
   status = 302
 
 ################
