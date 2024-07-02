@@ -29,7 +29,8 @@ staticDir = ['static', 'assets']
   # featuredPost = 'posts/19.neural_topology.md'
   # featuredPost = 'posts/36.apesick.md'
   # featuredPost = 'posts/1255.three_pillars.md'
-  featuredPost = 'posts/08.rube_goldberg.md'
+  # featuredPost = 'posts/08.rube_goldberg.md'
+  featuredPost = 'posts/1316.gymnosophist.md'
 
   # meta stuff
   homeSubtitle = "Unlimited Human Renaissance"
