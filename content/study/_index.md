@@ -2,7 +2,7 @@
 
 [Bartholomy](/about) teaches meditation, psychoanalysis, and psychedelic intervention to people around the world: with these tools you'll grow into a powerful human creature.
 
-{{< action-button href="/consult" text="Book a free consultation" onclick="gtagConversionEventOutboundClick('/consult');" >}}
+{{< action-button href="/consult" text="Book a free consultation" track=true >}}
 
 ## Meditation
 
@@ -31,4 +31,4 @@ Episodic psychedelic intervention by a qualified practitioner is one of the most
 * Sliding scale fees.
 * Se habla español, más o menos. Deutsch kann ich.
 
-{{< action-button href="/consult" text="Book a free consultation" onclick="gtagConversionEventOutboundClick('/consult');" >}}
+{{< action-button href="/consult" text="Book a free consultation" track=true >}}
