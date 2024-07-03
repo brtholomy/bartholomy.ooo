@@ -11,12 +11,12 @@ Paying subscribers get:
 * Priority in upcoming retreats.
 * Priority in requests for new content.
 
-{{< raw >}}
-
 {{< action-button href="https://buy.stripe.com/5kA2bpdD4d5DeqsbIM" text="$7 monthly" >}}
 
+{{< raw >}}
+
   <div class="stripe">
-      <img src="/stripe.svg"/>
+      <img src="/stripe.svg" alt="Powered by Stripe"/>
   </div>
 
 {{< /raw >}}
