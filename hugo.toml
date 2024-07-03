@@ -47,6 +47,7 @@ staticDir = ['static', 'assets']
   logolink = "/about"
   copyrightlink = "/about/privacy/"
   defaultPlace = "Fool's Bluff, Nevada"
+  defaultStudyButton = "study with bartholomy"
 
   # flags
   code_copy_button = false
