@@ -13,13 +13,7 @@ Paying subscribers get:
 
 {{< raw >}}
 
-  <div class="action_button">
-    <a href="https://buy.stripe.com/5kA2bpdD4d5DeqsbIM">
-      <p>
-        $7 monthly
-      </p>
-    </a>
-  </div>
+{{< action-button href="https://buy.stripe.com/5kA2bpdD4d5DeqsbIM" text="$7 monthly" >}}
 
   <div class="stripe">
       <img src="/stripe.svg"/>
