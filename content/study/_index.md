@@ -5,10 +5,10 @@
 
 {{< raw >}}
 
- <img srcset="/covers/old_man_420w.avif 420w,
-              /covers/old_man_720w.avif 720w"
+ <img srcset="/covers/old_man_420w.webp 420w,
+              /covers/old_man_720w.webp 720w"
              sizes="(max-width: 425px) 100vw, 100vw"
-             src="/covers/old_man_720w.avif" alt="old man meditating" />
+             src="/covers/old_man_720w.webp" alt="old man meditating" />
 
 {{< /raw >}}
 
