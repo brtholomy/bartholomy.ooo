@@ -1,4 +1,7 @@
-<!-- HACK: comment so that the file can begin with a shortcode -->
+---
+---
+
+<!-- HACK: yaml so that the file can begin with a shortcode -->
 
 {{< raw >}}
 
