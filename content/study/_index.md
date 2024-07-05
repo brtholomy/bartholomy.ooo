@@ -1,4 +1,13 @@
-![brain](/covers/old_man.jpg)
+<!-- HACK: comment so that the file can begin with a shortcode -->
+
+{{< raw >}}
+
+ <img srcset="/covers/old_man_420w.avif 420w,
+              /covers/old_man_720w.avif 720w"
+             sizes="(max-width: 425px) 100vw, 100vw"
+             src="/covers/old_man_720w.avif" alt="old man meditating" />
+
+{{< /raw >}}
 
 [Bartholomy](/about) teaches meditation, psychoanalysis, and psychedelic intervention to people around the world: with these tools you'll grow into a powerful human creature.
 
