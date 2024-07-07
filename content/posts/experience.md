@@ -58,4 +58,8 @@ Consider whether Hume and Hobbes are predecessors - an unembarassed Scotch skept
 
 #### .7
 
+In "ontology" as in everything else, I try to return to those principles I've discovered for myself, those anthropocentric principles I won with pain. *Belief is defined by unbelief*: so the application here, is that a single world of facts is *not* naively believed in at all, but is another of those morally charged fictions which apekind finds expedient, a mode of exchange, a handshake. To raise the empty hand in greeting, to feign harmlessness as a sign not of harmlessness but *one's investment in the attribution*: so I find most of what's called philosophy merely the pedantic refinement of the rituals of social exchange, a marketplace of dated attitudes, a catalogue of costumes which hid someone's motives at some time.
+
+#### .8
+
 In other words, our little "ontological revolution" is only necessitated by the *moral training* of a spiritual life, for lack of better terms - we found it so much more advantageous to abandon the belief in a single world of facts, than to tire oneself out defending this doomed castle, someone else's castle after all. Every "single world of fact" is *somebody's world*: all real estate in philosophy has already changed hands many times, and the task is not finding "god's country" but understanding where you're squatting... Does that sound like the philosophy of an eccentric hobo who picks through the wreckage of the ages? If so I'm fine with that, as long as we understand that we're circling the deeper rationality of our nomad ancestors, trying to unearth their most sensible and enduring latticework of reasons - those perspectives which our instincts deploy inevitably, projected like a solar sail.
