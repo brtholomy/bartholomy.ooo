@@ -1,6 +1,6 @@
 ---
 title: "Experience the nature of experience"
-summary: "Embracing manufacture of illusion"
+summary: "Soothing the epistemological diaper-rash of modernity"
 slug: experience
 draft: true
 date: 2024-07-07T14:56:41-07:00
@@ -54,7 +54,7 @@ The study of animal life is not merely a question of science, it's a reversal of
 
 #### .6
 
-Consider whether Hume and Hobbes are predecessors - an unembarrassed Scotch skepticism and a very English dourness: the important thing isn't their paucity of joy, but the way they were willing to see nature as something arbitrary, as whim. It's easy for us now, but it was a revolution at the time to think of Nature-with-a-capital-N as *unlawful*, as unlawful as it can get away with: the fundamental assumptions and ontological implications of something as boring as statistics, has yet to be resolved. Is probability a measure of prior certainty or a limiting factor in the generative functions of reality? Is statistics the artifacts of a limited empirical set or do our methods of approximation express something inherent in the mechanics? My answer is that the question is framed incorrectly: opposing *strict determinacy* to the profound epistemological critique Nietzsche was heir to, confuses the entire dialogue - and I suspect not unintentionally. There's no reason not to imagine that everything happens with as much "causality" as the whole can muster - in other words that reality unfolds with absolute necessity, but that absolutely no "law" takes place.
+Consider whether Hume and Hobbes are predecessors - an unembarrassed Scotch skepticism and a very English dourness: the important thing isn't their paucity of joy, but the way they were willing to see nature as something arbitrary, as whim. It's easy for us now, but it was a revolution at the time to think of Nature-with-a-capital-N as *unlawful*, as unlawful as it can get away with: the fundamental assumptions and ontological implications of something as boring as statistics, has yet to be resolved. Is probability a measure of prior certainty or a limiting factor in the generative functions of reality? Is statistics the artifacts of a limited empirical set or do our methods of approximation express something inherent in the mechanics? My answer is that the question is framed incorrectly: opposing *strict determinacy* to the profound epistemological critique Nietzsche was heir to, confuses the entire dialogue - and I suspect not unintentionally. There's no reason not to imagine that everything happens with as much "causality" as the whole can muster - in other words that reality unfolds with absolute necessity, but that absolutely no "law" takes place. Which also means that although innumerable possible worlds is the most sensible answer, each of these worlds is just as "determined" as the next.
 
 #### .7
 
