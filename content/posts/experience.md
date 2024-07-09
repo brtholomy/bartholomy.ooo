@@ -2,7 +2,7 @@
 title: "Experience the nature of experience"
 summary: "We fabricate the real"
 slug: experience
-draft: true
+draft: false
 date: 2024-07-07T14:56:41-07:00
 thumbnail: "thumbnails/sloping_dots_thumb.webp"
 images: ["covers/tapetum_sloping_dots.webp"]
