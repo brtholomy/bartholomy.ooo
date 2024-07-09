@@ -1,6 +1,6 @@
 ---
 title: "Experience the nature of experience"
-summary: "Soothing our epistemological diaper-rash"
+summary: "We fabricate the real"
 slug: experience
 draft: true
 date: 2024-07-07T14:56:41-07:00
@@ -58,7 +58,7 @@ Consider whether Hume and Hobbes are predecessors - an unembarrassed Scotch skep
 
 #### .7
 
-In "ontology" as in everything else, I try to return to those principles I've discovered for myself, those anthropocentric principles I won with pain. *Belief is defined by unbelief*: so the application here, is that a single world of facts is *not* naively believed in at all, but is another of those morally charged fictions which apekind finds expedient, a mode of exchange, a handshake. To raise the empty hand in greeting, to feign harmlessness as a sign not of harmlessness but *one's investment in the attribution*: so I find most of what's called philosophy merely the pedantic refinement of the rituals of social exchange, a marketplace of dated attitudes, a catalogue of costumes which hid someone's motives at some time.
+In "ontology" as in everything else, I try to return to those principles I've discovered for myself, those anthropocentric principles I won with pain. *Belief is defined by unbelief*: so the application here, is that a single world of facts is *not* naïvely believed in at all, but is another of those morally charged fictions which apekind finds expedient, a mode of exchange, a handshake. To raise the empty hand in greeting, to feign harmlessness as a sign not of harmlessness but *one's investment in the attribution*: so I find most of what's called philosophy merely the pedantic refinement of the rituals of social exchange, a marketplace of dated attitudes, a catalogue of costumes which hid someone's motives at some time.
 
 #### .8
 
