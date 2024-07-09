@@ -1,13 +1,13 @@
 ---
 title: "Experience the nature of experience"
-summary: "Soothing the epistemological diaper-rash of modernity"
+summary: "Soothing our epistemological diaper-rash"
 slug: experience
 draft: true
 date: 2024-07-07T14:56:41-07:00
 thumbnail: "thumbnails/sloping_dots_thumb.webp"
 images: ["covers/tapetum_sloping_dots.webp"]
-tags: [neuromorphism, nietzsche, freedom]
-theme: terminalboy
+tags: [neuromorphism, nietzsche, freedom, epistemology]
+theme: yellowjacket
 ---
 
 #### .0
