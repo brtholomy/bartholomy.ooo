@@ -1,3 +1,6 @@
+---
+quiet_title: subscribe to bartholomy
+---
 
 Get that critical juice delivered.
 

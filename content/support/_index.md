@@ -1,3 +1,6 @@
+---
+quiet_title: support bartholomy
+---
 
 I deeply appreciate the contributions of my readers: I often think of those who have supported my work and believe in its longevity. Your support will help me with the following:
 
