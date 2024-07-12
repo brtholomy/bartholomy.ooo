@@ -1,5 +1,4 @@
-+++
-type="oeuvre"
-+++
-
-Written, performed, and produced by Bartholomy.
+---
+quiet_title: music by bartholomy
+type: "oeuvre"
+---
