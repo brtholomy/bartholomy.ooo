@@ -1,4 +1,5 @@
 ---
+quiet_title: Study with Bartholomy
 ---
 
 <!-- HACK: yaml so that the file can begin with a shortcode -->
