@@ -1,4 +1,5 @@
 ---
+quiet_title: About Bartholomy
 description: "Bartholomy teaches meditation, psychoanalysis, and psychedelic intervention."
 ---
 
