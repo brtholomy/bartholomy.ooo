@@ -81,56 +81,17 @@ staticDir = ['static', 'assets']
     url = "books/"
     weight = 20
 
-# disabled for now
-  # [[menu.main]]
-  #   name = "music"
-  #   url = "music/"
-  #   weight = 30
-
-# emphasize this more
   [[menu.main]]
-    name = "study"
-    url = "study/"
-    weight = 30
-
-  [[menu.main]]
-    name = "about"
-    url = "about/"
-    weight = 40
-
-  [[menu.works]]
-    name = "posts"
-    url = "posts/"
-    weight = 10
-
-  [[menu.works]]
-    name = "books"
-    url = "books/"
-    weight = 20
-
-  [[menu.works]]
     name = "music"
     url = "music/"
     weight = 30
 
-  # now has its own button:
-  # [[menu.info]]
-  #   name = "subscribe"
-  #   url = "subscribe/"
-  #   weight = 10
-
-  [[menu.info]]
+  [[menu.main]]
     name = "study"
     url = "study/"
-    weight = 20
+    weight = 30
 
-  # remove for now
-  # [[menu.info]]
-  #   name = "support"
-  #   url = "support/"
-  #   weight = 30
-
-  [[menu.info]]
+  [[menu.main]]
     name = "about"
     url = "about/"
     weight = 40
