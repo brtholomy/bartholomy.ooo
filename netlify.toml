@@ -82,6 +82,12 @@
   to = "https://www.youtube.com/watch?v=d_VDr74eTso&list=OLAK5uy_njh3HP7nGW5qjKb0RHfYlfHLdEM2Vdn9E&index=4"
   status = 301
 
+# gist of dot setup
+[[redirects]]
+  from = "/dotgist"
+  to = "https://gist.githubusercontent.com/brtholomy/31e161ffcc8d49310e04cc7f3eb83e86/raw/d2fa944af66df215fb19fcda2ac5c96dbc9297e7/dot_install.sh"
+  status = 302
+
 # gcal vs setmore:
 [[redirects]]
   from = "/consult"
