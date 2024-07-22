@@ -1,5 +1,6 @@
 # candidates
 
+1324.math.md
 1330.afterword.md
 1331.word.md
 1329.bedrock.md
