@@ -1,5 +1,12 @@
 # candidates
 
+1330.afterword.md
+1331.word.md
+1329.bedrock.md
+1334.ai.md
+1336.fractality.md
+1318.alone.md
+
 surveil piece
 clownworld
 wenzi
