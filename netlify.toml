@@ -20,7 +20,7 @@
   node_bundler = "esbuild"
 
 [build.environment]
-  HUGO_VERSION = "0.112.5"
+  HUGO_VERSION = "0.128.2"
 
 [functions]
   directory = "netlify/functions/"
