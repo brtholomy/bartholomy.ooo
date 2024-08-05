@@ -1,5 +1,8 @@
 # candidates
 
+1276.science.md
+1344.bak.md
+
 1324.math.md
 1336.fractality.md
 1331.word.md
