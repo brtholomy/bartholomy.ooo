@@ -1,20 +1,20 @@
 # candidates
 
-1276.science.md
-1344.bak.md
+um tag science
+um tag criticality
 
-1324.math.md
+1330.afterword.md
 1336.fractality.md
 1331.word.md
-1330.afterword.md
 1329.bedrock.md
 1334.ai.md
 1318.alone.md
 
-surveil piece
+surveil
+
 clownworld
-wenzi
-sinbad
+truth
+human nature
 
 ---
 
@@ -22,13 +22,11 @@ med/
 
 025.whatismed.md
 
-030.breath.md
+030.whatisbreath.md
 
-17.percolation.md
+115.intelligent_limitation.md
 
-25.facilitated_variation.md
-
-13.evolutionary.md
+050.genealogy_of.md
 
 ---
 
@@ -51,16 +49,6 @@ journal/
 0816.strength_weakness
 
 1087.health
-
----
-
-## from apesick:
-
-truth
-
-human nature
-
-clownworld
 
 ---
 
