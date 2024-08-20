@@ -43,6 +43,7 @@ staticDir = ['static', 'assets']
   logolink = "/about"
   copyrightlink = "/about/privacy/"
   defaultPlace = "Fool's Bluff, Nevada"
+  # override this in frontmatter with studyButton: "foo"
   defaultStudyButton = "study with bartholomy"
 
   # flags
