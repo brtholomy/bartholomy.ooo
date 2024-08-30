@@ -6,10 +6,10 @@ quiet_title: study with bartholomy
 
 {{< raw >}}
 
-<img srcset="/covers/synthwave_knot_420.webp 420w,
-              /covers/synthwave_knot_720.jpg 720w"
+<img srcset="/covers/pupil_mirror_420.webp 420w,
+              /covers/pupil_mirror_720.jpg 720w"
 sizes="(max-width: 425px) 100vw, 100vw"
-src="/covers/synthwave_knot_720.jpg" alt="synthwave knot" />
+src="/covers/pupil_mirror_720.jpg" alt="synthwave knot" />
 
 {{< /raw >}}
 
