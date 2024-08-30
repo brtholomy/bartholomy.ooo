@@ -6,10 +6,10 @@ quiet_title: study with bartholomy
 
 {{< raw >}}
 
- <img srcset="/covers/old_man_420w.webp 420w,
-              /covers/old_man_720w.webp 720w"
-             sizes="(max-width: 425px) 100vw, 100vw"
-             src="/covers/old_man_720w.webp" alt="old man meditating" />
+<img srcset="/covers/synthwave_knot_420.webp 420w,
+              /covers/synthwave_knot_720.jpg 720w"
+sizes="(max-width: 425px) 100vw, 100vw"
+src="/covers/synthwave_knot_720.jpg" alt="synthwave knot" />
 
 {{< /raw >}}
 
