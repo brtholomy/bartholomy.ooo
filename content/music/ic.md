@@ -3,7 +3,7 @@ title = "Increscunt Animi"
 year = 2021
 cover = "increscuntanimi.jpg"
 link="https://distrokid.com/hyperfollow/bartholomy/increscunt-animi"
-weight = 2
+weight = 5
 featuredAudio = "/audio/106_big_fat_child.mp3"
 featuredAudioCaption = "Big Fat Child"
 +++
