@@ -13,7 +13,7 @@ src="/covers/caveguy_720.jpg" alt="man in a cave" />
 
 {{< /raw >}}
 
-[Bartholomy](/about) teaches psychoanalysis and meditation to people around the world: with these tools you'll grow into a powerful human creature.
+Depression, anxiety, alienation, meaninglessness: these are the symptoms of modernity - increasingly common, increasingly accepted. People work with [Bartholomy](/about) because they're looking for tools of resistance: not coping strategies, but a path.
 
 {{< action-button href="/consult" text="Book a free consultation" track=true >}}
 
