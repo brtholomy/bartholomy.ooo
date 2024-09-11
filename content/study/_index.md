@@ -13,7 +13,7 @@ src="/covers/caveguy_720.jpg" alt="man in a cave" />
 
 {{< /raw >}}
 
-Anxiety, alienation, meaninglessness: these are the symptoms of modernity. People work with [Bartholomy](/about) because they're looking for tools of resistance: not mere coping strategies, but a path.
+Frustration, anxiety, alienation: these are the symptoms of modernity. People work with [Bartholomy](/about) because they're looking for tools of resistance: not mere coping strategies, but a path.
 
 {{< action-button href="/consult" text="Book a free consultation" track=true >}}
 
