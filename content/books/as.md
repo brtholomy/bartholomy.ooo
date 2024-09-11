@@ -3,7 +3,7 @@ title = "Apesick"
 year = 2024
 cover = "0224_apesick.jpg"
 link = "https://www.amazon.com/dp/1737889412"
-weight = 1
+weight = 2
 +++
 
 Anthropology, evolutionary psychology, and sociology recast in the image of the *mad weeping primate*: it slowly dawns on this creature what he is.
