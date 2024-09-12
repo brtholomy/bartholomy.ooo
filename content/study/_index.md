@@ -13,9 +13,11 @@ src="/covers/cavewash_720.jpg" alt="man in a cave" />
 
 {{< /raw >}}
 
-[Bartholomy](/about) teaches psychoanalysis and meditation to people around the world: with these tools you'll grow into a powerful human creature.
+Frustration, anxiety, alienation: these are the symptoms of modernity. People work with [Bartholomy](/about) because they're looking for tools of resistance: not mere coping strategies, but a path.
 
-{{< action-button href="/consult" text="Book a free consultation" track=true >}}
+{{< action-button href="/consult" text="Free consultation" track=true >}}
+
+or [start with the book](https://www.amazon.com/dp/1737889420).
 
 ## Psychoanalysis
 
