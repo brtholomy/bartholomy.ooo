@@ -3,7 +3,7 @@ title = "Power and Oblivion"
 year = 2022
 cover = "powerandoblivion.jpg"
 link = "https://distrokid.com/hyperfollow/bartholomy/power-and-oblivion"
-weight = 1
+weight = 4
 featuredAudio = "/audio/140_arrogant_apethink.mp3"
 featuredAudioCaption = "Arrogant Apethink"
 +++
