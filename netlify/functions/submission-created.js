@@ -16,7 +16,7 @@ exports.handler = async (event, context) => {
     const response = await fetch(`https://api.mailgun.net/v3/lists/${listAddress}/members`, {
             method: 'POST',
             headers: {
-                Authorization: `Token ${MAILGUN_TEST_API_KEY}`,
+                Authorization: `Bearer ${MAILGUN_TEST_API_KEY}`,
                 'Content-Type': 'application/json',
             },
             body: form,
