@@ -1,26 +1,21 @@
 require("dotenv").config()
 
-const { MAILGUN_TEST_API_KEY } = process.env;
+const { BUTTONDOWN_API_KEY } = process.env;
 
 import fetch from 'node-fetch';
-import FormData from 'form-data';
 
 exports.handler = async (event, context) => {
     const email = JSON.parse(event.body).payload.email
     console.log(`Received a submission: ${email}`)
 
-    const form = new FormData();
-    form.append('address', email);
-
-    const listAddress = 'test@sandbox1e7a4321500241bc88fbd6fb1ad7d544.mailgun.org';
-    const response = await fetch(`https://api.mailgun.net/v3/lists/${listAddress}/members`, {
-            method: 'POST',
-            headers: {
-                Authorization: `Bearer ${MAILGUN_TEST_API_KEY}`,
-                'Content-Type': 'application/json',
-            },
-            body: form,
-        }
+    const response = await fetch( 'https://api.buttondown.email/v1/subscribers', {
+		  method: 'POST',
+		  headers: {
+			  Authorization: `Token ${BUTTONDOWN_API_KEY}`,
+			  'Content-Type': 'application/json',
+		  },
+		  body: JSON.stringify({ email }),
+	    }
     );
 
     let responseText = await response.text();
