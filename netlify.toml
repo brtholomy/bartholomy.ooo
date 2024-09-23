@@ -18,7 +18,6 @@
 [build.environment]
   HUGO_VERSION = "0.128.2"
   GO_VERSION = "1.23.1"
-  GO_IMPORT_PATH = "github.com/brtholomy/netlify.go"
 
 [functions]
   directory = "netlify/functions/"
