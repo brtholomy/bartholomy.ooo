@@ -62,6 +62,9 @@
 [context.staging]
   command = "hugo --gc --minify --buildDrafts --buildFuture -b $DEPLOY_PRIME_URL"
 
+[context.buttondownapi]
+  command = "hugo --gc --minify --buildDrafts --buildFuture -b $DEPLOY_PRIME_URL"
+
 # Dev context: environment variables set here
 # are available for local development environments
 # run using Netlify Dev. These values can be
