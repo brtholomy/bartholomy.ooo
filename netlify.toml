@@ -1,7 +1,7 @@
 # Settings in the [build] context are global and are applied to
 # all contexts unless otherwise overridden by more specific contexts.
 [build]
-  command = "npm install && hugo --gc --minify"
+  command = "hugo --gc --minify"
 
   # Directory to change to before starting a build.
   # This is where we will look for package.json/.nvmrc/etc.
@@ -15,16 +15,22 @@
   # located at the absolute path "root/project/build-output"
   publish = "public"
 
-  # needed for npm crap
-  # NOTE: node 20.x AWS environment set in the netlify UI
-  node_bundler = "esbuild"
-
 [build.environment]
   HUGO_VERSION = "0.128.2"
 
 [functions]
   directory = "netlify/functions/"
-  node_bundler = "esbuild"
+
+# FIXME: css fails to load on netlify dev. Probably baseUrl is wrong. $DEPLOY_PRIME_URL doesn't seem to be set here.
+# Use [dev] to set configuration overrides for local
+# development environments run using Netlify Dev - except
+# for environment variables. Environment variables for Netlify
+# Dev should be set under [context.dev.environment] instead.
+# [dev]
+  # command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+  # port = 8888
+  # targetPort = 1313
+  # publish = "dist"
 
 ##############################
 # contexts
@@ -254,19 +260,3 @@
 #     # Basic-Auth allows you to password protect your whole site.
 #     # This feature may not be available on all plans.
 #     Basic-Auth = "someuser:somepassword anotheruser:anotherpassword"
-
-# [functions]
-#   # Directory with serverless functions, including background
-#   # functions, to deploy. This is relative to the base directory
-#   # if one has been set, or the root directory if
-#   # a base hasn't been set.
-#   directory = "functions/"
-
-# Use [dev] to set configuration overrides for local
-# development environments run using Netlify Dev - except
-# for environment variables. Environment variables for Netlify
-# Dev should be set under [context.dev.environment] instead.
-# [dev]
-#   command = "yarn start"
-#   port = 8888
-#   publish = "dist"j
