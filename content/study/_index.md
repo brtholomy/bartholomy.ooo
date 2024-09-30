@@ -15,10 +15,6 @@ src="/covers/caveguy_720.jpg" alt="man in a cave" />
 
 Frustration, anxiety, alienation: these are the symptoms of modernity. People work with [Bartholomy](/about) because they're looking for tools of resistance: not mere coping strategies, but a path.
 
-{{< consult-form >}}
-
-or [start with the book](https://www.amazon.com/dp/1737889420).
-
 ## Psychoanalysis
 
 Training in unconscious semantics is one of the most powerful weapons available in the war for spiritual growth. I can teach you to employ that vast domain of intelligence and intuition which most of us cannot reliably access.
@@ -40,4 +36,6 @@ We study meditation as a form of *remedial neuronal training*. We're interested 
 * Sliding scale fees.
 * Se habla español, más o menos. Deutsch kann ich.
 
-{{< consult-form >}}
+{{< action-button href="/consult" text="Initial consultation" track=true >}}
+
+or [start with the book](https://www.amazon.com/dp/1737889420).
