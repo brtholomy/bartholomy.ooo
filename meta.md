@@ -3,11 +3,15 @@
 um tag science
 um tag criticality
 
-1334.ai.md
+1081.loneliness.md
+1318.alone.md
+
+1127.pentecost.md
+
 1330.afterword.md
 1331.word.md
+
 1329.bedrock.md
-1318.alone.md
 
 surveil
 
