@@ -1,17 +1,16 @@
 # candidates
 
-um tag science
-um tag criticality
-
-1081.loneliness.md
-1318.alone.md
-
-1127.pentecost.md
+293.diagonal.md
 
 1330.afterword.md
 1331.word.md
 
 1329.bedrock.md
+
+um tag science
+
+1081.loneliness.md
+1318.alone.md
 
 surveil
 
