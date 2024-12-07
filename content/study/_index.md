@@ -15,6 +15,12 @@ src="/covers/cavewash_720.jpg" alt="man in a cave" />
 
 Frustration, anxiety, alienation: these are the symptoms of modernity. People work with [Bartholomy](/about) because they're looking for tools of resistance: not mere coping strategies, but a path.
 
+## Shamanic initiation
+
+When the tribe is failing, the gifted ones retreat to the wilderness to seek answers. I can show you how to leverage psychosomatic disease and psychotic fragmentation to find medicine.
+
+[Learn about the shamanic way](/posts/three-pillars/)
+
 ## Psychoanalysis
 
 Training in unconscious semantics is one of the most powerful weapons available in the war for spiritual growth. I can teach you to employ that vast domain of intelligence and intuition which most of us cannot reliably access.
