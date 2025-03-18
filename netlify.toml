@@ -125,6 +125,11 @@
   to = "/posts/index.xml"
   status = 301
 
+[[redirects]]
+  from = "/publish/home"
+  from = "/posts/"
+  status = 301
+
 # renamed slugs
 [[redirects]]
   from = "/p/the-circularity-of-nietzschean-pedagogy"
