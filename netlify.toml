@@ -127,7 +127,7 @@
 
 [[redirects]]
   from = "/publish/home"
-  from = "/posts/"
+  to = "/posts"
   status = 301
 
 # renamed slugs
