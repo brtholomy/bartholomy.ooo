@@ -125,6 +125,7 @@
   to = "/posts/index.xml"
   status = 301
 
+# FIXME: this may be incorrect: this is the account interface?
 [[redirects]]
   from = "/publish/home"
   to = "/posts"
