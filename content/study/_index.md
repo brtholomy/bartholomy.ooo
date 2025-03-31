@@ -13,7 +13,17 @@ src="/covers/cavewash_720.jpg" alt="man in a cave" />
 
 {{< /raw >}}
 
-Frustration, anxiety, alienation: these are the symptoms of modernity. People work with [Bartholomy](/about) because they're looking for tools of resistance: not mere coping strategies, but a path.
+In a time of frustration, anxiety, hypocrisy, and slow-moving disaster, I help young men find a path.
+
+Until we can laugh about our pain, until we find a place for our aggression, until we become brave and true.
+
+Through disciplines of the body and mind, through ritual, through hard work with our hands, through the most mundane realities and esoteric visions: we must become whole human creatures. No one but yourself can make this future, I can only teach you to pray and become worthy of your prayer.
+
+## Craft
+
+Woodcraft, musical instrument building, construction and offgrid living, hunting and wilderness training: there's medicine in all these things. One day you may find yourself pouring concrete in the desert, chopping firewood in the mountains, or skinning your first rabbit.
+
+[Practical first steps](/posts/walking/)
 
 ## Shamanic initiation
 
