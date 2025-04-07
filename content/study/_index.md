@@ -2,18 +2,9 @@
 quiet_title: study with bartholomy
 ---
 
-<!-- HACK: file cannot begin with a shortcode; yaml or comment fixes it -->
+![manhood](/covers/0183.manhood.webp)
 
-{{< raw >}}
-
-<img srcset="/covers/cavewash_420.jpg 420w,
-              /covers/cavewash_720.jpg 720w"
-sizes="(max-width: 425px) 100vw, 100vw"
-src="/covers/cavewash_720.jpg" alt="man in a cave" />
-
-{{< /raw >}}
-
-In a time of frustration, anxiety, hypocrisy, and slow-moving disaster, I help young men find a path.
+In a time of ratcheting frustration, ubiquitous anxiety, and slow-moving disaster, most young men feel misplaced, misconstrued, misshapen.
 
 Until we can laugh about our pain, until we find a place for our aggression, until we become brave and true.
 
@@ -49,7 +40,7 @@ We study meditation as a form of *remedial neuronal training*. We're interested 
 
 * Video sessions weekly.
 * Desert retreats semi-annually.
-* Sliding scale fees.
+* Sliding scale fees. Passion and respect are forms of currency.
 * Se habla español, más o menos. Deutsch kann ich.
 
 {{< consult-form >}}
