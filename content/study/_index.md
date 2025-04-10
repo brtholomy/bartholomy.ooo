@@ -1,15 +1,17 @@
 ---
 quiet_title: study with bartholomy
-theme: rolotony
+theme: greenteen
 ---
 
-![manhood](/covers/0183.manhood.webp)
+![path](/covers/desert_path.webp)
 
 In a time of ratcheting frustration, ubiquitous anxiety, and slow-moving disaster, most young men feel misplaced, misconstrued, misshapen.
 
 Until we can laugh about our pain, until we find a place for our aggression, until we become brave and true.
 
 Through disciplines of the body and mind, through ritual, through hard work with our hands, through the most mundane realities and esoteric visions: we must become whole human creatures. No one but yourself can make this future, I can only teach you to pray and become worthy of your prayer.
+
+![planeta](/covers/planeta.webp)
 
 ## Craft
 
