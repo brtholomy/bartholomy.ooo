@@ -43,8 +43,14 @@ staticDir = ['static', 'assets']
   logolink = "/about"
   copyrightlink = "/about/privacy/"
   defaultPlace = "Fool's Bluff, Nevada"
+
+  # NOTE: see ./themes/bth-hermit/layouts/posts/single.html for the action-button inclusion.
+  # NOTE: changed to /subscribe:
+  # https://github.com/brtholomy/bth-hermit/commit/29948aa
   # override this in frontmatter with studyButton: "foo"
   defaultStudyButton = "study with bartholomy"
+  # override this in frontmatter with subscribeButton: "foo"
+  defaultSubscribeButton = "subscribe"
 
   # flags
   code_copy_button = false
