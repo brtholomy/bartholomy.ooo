@@ -5,8 +5,6 @@ description: "Bartholomy teaches meditation, psychoanalysis, and psychedelic int
 
 Bartholomy teaches meditation, psychoanalysis, and psychedelic intervention. He lives offgrid in the high desert of Nevada.
 
-[Study with Bartholomy](/study)
-
 {{< raw >}}
 
 <img class="narrow" src="/jerk_bw.png"/>
