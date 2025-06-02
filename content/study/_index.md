@@ -7,7 +7,7 @@ theme: greenteen
 
 In a time of ratcheting frustration, ubiquitous anxiety, and slow-moving disaster, most young men feel misplaced, misconstrued, misshapen.
 
-Through discipline, through ritual, through hard work with our hands, through mundane realities and hidden visions: we must become whole human creatures.
+I teach a few disciplines which have helped me find a way out of that deadlock. The important thing is to do something *creative* with the inner torment of firstworld misery.
 
 ![siding](/covers/siding.webp)
 
@@ -19,9 +19,9 @@ Woodcraft, construction and offgrid living, hunting and wilderness training: the
 
 [Practical first steps](/posts/walking/)
 
-## Qi Gong
+## Qigong
 
-I teach Qi Gong and a martial form known as Liuhebafa. It will make you stronger from the inside out.
+I teach 氣功 Qigong and a martial form known as 六合八法 Liuhebafa. It will make you stronger from the inside out.
 
 [Neuronal calibration](/posts/why-meditate/)
 
