@@ -7,7 +7,7 @@ My name is T. Bartholomy. I live offgrid in the high desert of Nevada. I teach, 
 
 {{< raw >}}
 
-<img class="narrow" src="/covers/hands.webp"/>
+<img class="narrow" src="/explaincircle.webp"/>
 
 {{< /raw >}}
 

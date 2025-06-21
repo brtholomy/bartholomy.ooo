@@ -14,6 +14,8 @@ um tag sot 1455.chemistry.md through 1491.measurement.md
 
 um tag healing
 
+1268.thoreau.md
+
 1502.pascal.md
 
 um tag movies
@@ -23,6 +25,8 @@ um tag movies
 1358.nachlass.md
 
 phantom limb chapter
+
+1101.ai_therapy.md
 
 1081.loneliness.md
 1318.alone.md
