@@ -56,10 +56,6 @@ journal/
 
 1036.criticality.md
 
-1081.loneliness
-
-0564.acoustic_thought.md
-
 1084.feminine
 
 1034.sacks
