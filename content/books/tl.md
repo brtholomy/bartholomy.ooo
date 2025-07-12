@@ -3,7 +3,7 @@ title = "Tapetum Lucidum"
 year = 2024
 cover = "0237_tapetum.jpg"
 link = "https://www.amazon.com/dp/1737889420"
-weight = 1
+weight = 3
 +++
 
 *Consciousness and the Hostage Rescue of Meditation*: a guide for the spiritually disenchanted. Neuroscience is made to pay up: to yield insight, reasons to be brave, reasons to endure the discipline and comedy that genuine meditative practice entails.

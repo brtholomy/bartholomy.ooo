@@ -3,7 +3,7 @@ title = "Kill the Buddha"
 year = 2025
 cover = "ktb_300w.jpg"
 link = "https://www.amazon.com/dp/1737889439"
-weight = 1
+weight = 4
 +++
 
 *To the Ascetic of the Future*.
