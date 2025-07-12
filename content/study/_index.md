@@ -1,6 +1,6 @@
 ---
 quiet_title: study with bartholomy
-theme: greenteen
+theme: yellowjacket
 ---
 
 ![vise](/covers/vise.webp)
@@ -11,7 +11,7 @@ I teach a few disciplines which have helped me find a way out of that deadlock. 
 
 ![siding](/covers/siding.webp)
 
-## Craft
+##### Craft
 
 It begins simply: go outside. Walk.
 
@@ -19,13 +19,13 @@ Woodcraft, construction and offgrid living, hunting and wilderness training: the
 
 [Practical first steps](/posts/walking/)
 
-## Qigong
+##### Qigong
 
 I teach 氣功 Qigong and a martial form known as 六合八法 Liuhebafa. It will make you stronger from the inside out.
 
 [Neuronal calibration](/posts/why-meditate/)
 
-## Shamanic initiation
+##### Shamanic initiation
 
 When the tribe is failing, the gifted ones retreat to the wilderness to seek answers. I can show you how to leverage psychosomatic disease to find medicine.
 
@@ -33,7 +33,7 @@ When the tribe is failing, the gifted ones retreat to the wilderness to seek ans
 
 ![desert](/landscape.jpg)
 
-## Details
+##### Details
 
 * Video sessions weekly.
 * Desert retreats semi-annually.
