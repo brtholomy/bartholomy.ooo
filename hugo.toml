@@ -30,6 +30,7 @@ staticDir = ['static', 'assets']
 
   # meta stuff
   homeSubtitle = "Unlimited Human Renaissance"
+
   # Page subtitle
   # .Page.Params.Summary := description as subtitle
   # .Page.Params.Description := description without subtitle
