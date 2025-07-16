@@ -7,7 +7,7 @@ My name is Bartholomy. I live offgrid in the high desert of Nevada.
 
 {{< raw >}}
 
-<img class="narrow" src="/james_earl_jones_conan.jpg"/>
+<img class="narrow" src="/headshot_150px.png"/>
 
 {{< /raw >}}
 
