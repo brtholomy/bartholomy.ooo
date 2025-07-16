@@ -3,11 +3,11 @@ quiet_title: about bartholomy
 description: "Bartholomy teaches meditation, psychoanalysis, and psychedelic intervention."
 ---
 
-My name is T. Bartholomy. I live offgrid in the high desert of Nevada. I teach, write, and listen. I specialize in helping men repulsed by effeminate and moralizing psychotherapy. My methods work well for depression, addiction, and ennui.
+My name is Bartholomy. I live offgrid in the high desert of Nevada.
 
 {{< raw >}}
 
-<img class="narrow" src="/explaincircle.webp"/>
+<img class="narrow" src="/james_earl_jones_conan.jpg"/>
 
 {{< /raw >}}
 
