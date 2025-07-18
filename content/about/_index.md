@@ -7,7 +7,7 @@ My name is Bartholomy. I live offgrid in the high desert of Nevada.
 
 {{< raw >}}
 
-<img class="narrow" src="/headshot_150px.png"/>
+<img class="narrow" src="/headshot_150px.webp"/>
 
 {{< /raw >}}
 

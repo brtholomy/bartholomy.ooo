@@ -8,9 +8,9 @@
             "type": "image/ico"
         },
         {
-            "src": "/headshot_150px.png",
+            "src": "/headshot_150px.webp",
             "sizes": "150x200",
-            "type": "image/png"
+            "type": "image/webp"
         }
     ],
     "theme_color": "#c65108",
