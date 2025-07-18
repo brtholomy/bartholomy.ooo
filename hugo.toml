@@ -48,7 +48,7 @@ staticDir = ['static', 'assets']
   images = ["headshot.png", "covers/0152.witch_hunt.jpg"]
 
   # footer
-  logo = "headshot_150px.png"
+  logo = "headshot_150px.webp"
   logolink = "/about"
   copyrightlink = "/about/privacy/"
   defaultPlace = "Fool's Bluff, Nevada"
