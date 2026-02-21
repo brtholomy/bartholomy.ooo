@@ -8,17 +8,14 @@
 # https://gohugo.io/host-and-deploy/host-on-netlify/#procedure
 # https://gohugo.io/functions/css/sass/#dart-sass
 [build]
-  command = "hugo --gc --minify"
-
-  # TODO
-  # command = """\
-  # curl -sLJO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
-  # tar -C "${HOME}/.local" -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
-  # rm "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
-  # export PATH="${HOME}/.local/dart-sass:${PATH}" && \
-  # git config core.quotepath false && \
-  # hugo build --gc --minify --baseURL "$DEPLOY_PRIME_URL"
-  # """
+  command = """\
+  curl -sLJO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
+  tar -C "${HOME}/.local" -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
+  rm "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
+  export PATH="${HOME}/.local/dart-sass:${PATH}" && \
+  git config core.quotepath false && \
+  hugo build --gc --minify
+  """
 
   # Directory to change to before starting a build.
   # This is where we will look for package.json/.nvmrc/etc.
@@ -59,6 +56,7 @@
 #   publish = "output/"
 #   command = "make publish"
 
+# https://docs.netlify.com/build/configure-builds/environment-variables/#deploy-urls-and-metadata
 # Deploy Preview context: all deploys generated from
 # a pull/merge request will inherit these settings.
 [context.deploy-preview]
