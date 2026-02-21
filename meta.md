@@ -1,3 +1,24 @@
+# TODO
+
+## hugo scss
+
+Eventually I'll have to move to Dart Sass:
+
+https://gohugo.io/host-and-deploy/host-on-netlify/#procedure
+
+https://gohugo.io/functions/css/sass/#dart-sass
+
+https://discourse.gohugo.io/t/netlify-and-dart-sass/51077
+https://www.brycewray.com/posts/2022/03/using-dart-sass-hugo-sequel/
+
+But I'm hoping they'll just include it in the extended binary, otherwise I'll have to install it on Netlify. Using Docker I guess. Perhaps a reason to move to Render.
+
+To check:
+
+```
+hugo env
+```
+
 # candidates
 
 um tag order
