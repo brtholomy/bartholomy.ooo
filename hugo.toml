@@ -29,7 +29,15 @@ staticDir = ['static', 'assets']
   url = "/about"
   email = "yo@bartholomy.ooo"
 
+[params.theme]
+  default = "redeye"
+  light = "blueboy"
+  home = "redeye"
+  section = "fuschsiaparty"
+  metaTagThemeColor = "#d43"
+
 [params]
+
   # NOTE: .Site.GetPage needs filename, not slug:
   # if the post is draft: true, this will currently not break the build, but it won't show up in posts/
   featuredPost = 'posts/341.clownworld.md'
@@ -49,7 +57,6 @@ staticDir = ['static', 'assets']
   # NOTE: so without either Summary or Description set in params, RSS <item> will lack <description> tag,
   # but the <meta> tags in the header will still be present.
   description = "Moral critique, neuroscience, psychoanalysis, anthropology, and philosophy."
-  themeColor = "#c65108"
   favicon = "headshot-zoom.ico"
   images = ["headshot.png", "covers/0152.witch_hunt.jpg"]
 
