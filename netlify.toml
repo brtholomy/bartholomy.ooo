@@ -1,7 +1,7 @@
 [build.environment]
-  HUGO_VERSION = "0.155.2"
-  GO_VERSION = "1.25.6"
-  DART_SASS_VERSION = "1.97.3"
+  HUGO_VERSION = "0.164.0"
+  GO_VERSION = "1.26.5"
+  DART_SASS_VERSION = "1.102.0"
 
 # Settings in the [build] context are global and are applied to
 # all contexts unless otherwise overridden by more specific contexts.
