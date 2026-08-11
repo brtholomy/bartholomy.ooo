@@ -196,3 +196,20 @@ xhtml = false
 # https://gohugo.io/getting-started/configuration-markup/#highlight
 [markup.highlight]
 style = 'gruvbox'
+
+# HTTP headers
+[mediaTypes]
+  [mediaTypes."text/netlify"]
+    suffixes = [""]
+    delimiter = ""
+
+# https://gohugo.io/configuration/output-formats/
+[outputFormats]
+  [outputFormats.Headers]
+    mediaType = "text/netlify"
+    baseName = "_headers"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "Headers"]
