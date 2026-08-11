@@ -198,12 +198,18 @@ xhtml = false
 style = 'gruvbox'
 
 # HTTP headers
+# themes/bth-hermit/layouts/index.headers
+# we do this rather than a [[headers]] entry in netlify.toml because we need access to the inline JS for the CSP hash.
+# https://gohugo.io/configuration/media-types/
+# https://docs.netlify.com/build/configure-builds/file-based-configuration/#headers
+# TODO: i don't really understand why this works without defining a "headers" suffix.
 [mediaTypes]
   [mediaTypes."text/netlify"]
     suffixes = [""]
     delimiter = ""
 
 # https://gohugo.io/configuration/output-formats/
+# outputs public/_headers for Netlify to find: https://docs.netlify.com/manage/routing/headers/
 [outputFormats]
   [outputFormats.Headers]
     mediaType = "text/netlify"
