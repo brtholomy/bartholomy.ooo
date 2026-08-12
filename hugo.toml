@@ -30,7 +30,6 @@ staticDir = ['static', 'assets']
 
 [params.theme]
   default = "redeye"
-  light = "blueboy"
   home = "redeye"
   section = "yellowjacket"
   metaTagThemeColor = "#d43"
