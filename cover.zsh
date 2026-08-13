@@ -2,18 +2,19 @@
 
 # make a 720x480 .webp cover or 100x100 round .webp thumbnail
 #
-# takes optional float args for X and Y center and ZOOM level
+# takes optional float args for X Y center, ZOOM, and pos/neg ROTATE deg
 # NOTE: even if edges are specified, won't crop outside the image.
 
 IMAGE=$1
 CX=${2:-0.5}
 CY=${3:-0.5}
 ZOOM=${4:-1.0}
-MODE=${5:-cover}
+ROTATE=${5:-0}
+MODE=${6:-cover}
 OUT="${IMAGE:r}.${MODE}.webp"
 
 if [[ ! -f "$IMAGE" ]]; then
-    echo "Usage: $0 IMAGE [X=0.5] [Y=0.5] [ZOOM=1.0] [MODE=cover|thumb]"
+    echo "Usage: $0 IMAGE [X=0.5] [Y=0.5] [ZOOM=1.0] [ROTATE=0] [MODE=cover|thumb]"
     exit 1
 fi
 
@@ -53,6 +54,7 @@ read -r CW CH X Y TW TH < <(awk -v w="$W" -v h="$H" -v cx="$CX" -v cy="$CY" -v z
 # command array
 CMD=(
   "$IMAGE"
+  -rotate $ROTATE
   -crop "${CW}x${CH}+${X}+${Y}" +repage
   # forces exact dimensions since we already fixed the aspect ratio
   -resize "${TW}x${TH}!"
