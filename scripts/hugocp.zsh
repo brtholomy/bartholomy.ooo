@@ -21,9 +21,9 @@ function hugocp {
         PUBLISH="false"
     fi
 
-    CONTENT=`cat $FILE` || exit 1
-    TAGS=`echo $CONTENT | grep -Eo '^\+ .*$' | sed 's/\+ //g' | tr '\n' ','`
-    DESCRIPTOR=`echo ${FILE:t} | sed -E 's/[0-9]+\.(.*)\.md/\1/'`
+    CONTENT=$(cat $FILE) || exit 1
+    TAGS=$(echo $CONTENT | grep -Eo '^\+ .*$' | sed 's/\+ //g' | tr '\n' ',')
+    DESCRIPTOR=$(echo ${FILE:t} | sed -E 's/[0-9]+\.(.*)\.md/\1/')
 
     # call hugo new with env vars caught in the archetype
     NEXT=$(HUGO_SKIPIMG=true HUGO_TAGS="$TAGS" HUGO_PUBLISH=$PUBLISH $SCRIPTSDIR/hugonew.zsh $DESCRIPTOR) || exit 1

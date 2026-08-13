@@ -10,7 +10,7 @@ function hugonew {
 
     local ROOTDIR=$SCRIPTSDIR/..
     cd $ROOTDIR/content/posts || exit 1
-    local NEXT=content/posts/`um next $1`
+    local NEXT=content/posts/$(um next $1)
     cd $ROOTDIR
     # WARN: because um next writes to this file with its own header, but we only want the name:
     rm $NEXT || exit 1
