@@ -3,7 +3,9 @@
 SCRIPTSDIR="${0:A:h}"
 
 # hugocp FILE [PUBLISH]
-function hugocp {
+#
+# NOTE: only a function for the sake of local vars:
+function hugocpFunc {
     [[ -z $1 ]] && echo "usage: $0 FILE [PUBLISH]" && exit 1
 
     local FILE="$1"
@@ -12,6 +14,7 @@ function hugocp {
     local NEXT
     local TAGS
     local PUBLISH
+    local DESCRIPTOR
 
     if [[ -n $2 && $2 == "publish" ]]; then
         # draft=false
@@ -35,4 +38,4 @@ function hugocp {
     echo $CONTENT | awk -v RS= 'NR > 1 { print $0 "\n"}' >> $NEXT
     cd -
 }
-hugocp $1 $2
+hugocpFunc $1 $2
