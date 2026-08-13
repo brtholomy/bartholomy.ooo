@@ -53,7 +53,6 @@ read -r CW CH X Y TW TH < <(awk -v w="$W" -v h="$H" -v cx="$CX" -v cy="$CY" -v z
 # command array
 CMD=(
   "$IMAGE"
-  -rotate -2
   -crop "${CW}x${CH}+${X}+${Y}" +repage
   # forces exact dimensions since we already fixed the aspect ratio
   -resize "${TW}x${TH}!"
