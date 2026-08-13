@@ -6,7 +6,9 @@ SCRIPTSDIR="${0:A:h}"
 #
 # NOTE: the point of this is to provide the most painless route from journal straight to the blog:
 # skip images, transfer tags, and provide the option to immediately set draft=false
-# with the
+#
+# NOTE: to skip images entirely but get a thumbnail, relies on the functionality in:
+# ../themes/bth-hermit/layouts/partials/tags-thumbnail.html
 #
 # NOTE: only a function for the sake of local vars:
 function hugocpFunc {
