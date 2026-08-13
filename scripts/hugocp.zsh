@@ -4,6 +4,10 @@ SCRIPTSDIR="${0:A:h}"
 
 # hugocp FILE [PUBLISH]
 #
+# NOTE: the point of this is to provide the most painless route from journal straight to the blog:
+# skip images, transfer tags, and provide the option to immediately set draft=false
+# with the
+#
 # NOTE: only a function for the sake of local vars:
 function hugocpFunc {
     [[ -z $1 ]] && echo "usage: $0 FILE [PUBLISH]" && exit 1
