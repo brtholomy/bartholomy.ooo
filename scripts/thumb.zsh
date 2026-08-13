@@ -7,5 +7,5 @@
 
 # :A absolute path following symlinks
 # :h head
-DIR="${0:A:h}"
-"$DIR/cover.zsh" "$1" "${2:-0.5}" "${3:-0.5}" "${4:-1.0}" "${5:-0}" "thumb"
+SCRIPTSDIR="${0:A:h}"
+"$SCRIPTSDIR/cover.zsh" "$1" "${2:-0.5}" "${3:-0.5}" "${4:-1.0}" "${5:-0}" "thumb"
