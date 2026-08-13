@@ -1,10 +1,11 @@
 #!/bin/zsh
 
+SCRIPTSDIR="${0:A:h}"
+
 # hugocp FILE [PUBLISH]
 function hugocp {
     [[ -z $1 ]] && echo "usage: $0 FILE [PUBLISH]" && exit 1
 
-    local DIR="${0:A:h}"
     local FILE="$1"
     local CONTENT
     local TITLE
@@ -25,7 +26,7 @@ function hugocp {
     DESCRIPTOR=`echo ${FILE:t} | sed -E 's/[0-9]+\.(.*)\.md/\1/'`
 
     # call hugo new with env vars caught in the archetype
-    NEXT=$(HUGO_SKIPIMG=true HUGO_TAGS="$TAGS" HUGO_PUBLISH=$PUBLISH $DIR/hugonew.zsh $DESCRIPTOR) || exit 1
+    NEXT=$(HUGO_SKIPIMG=true HUGO_TAGS="$TAGS" HUGO_PUBLISH=$PUBLISH $SCRIPTSDIR/hugonew.zsh $DESCRIPTOR) || exit 1
     NEXT=$(echo $NEXT | sed -E 's/Content \"(.*?)\" created/\1/g')
 
     # paragraph
