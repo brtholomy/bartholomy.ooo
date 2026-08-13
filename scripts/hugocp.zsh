@@ -25,7 +25,8 @@ function hugocp {
     DESCRIPTOR=`echo ${FILE:t} | sed -E 's/[0-9]+\.(.*)\.md/\1/'`
 
     # call hugo new with env vars caught in the archetype
-    HUGO_SKIPIMG=true HUGO_TAGS="$TAGS" HUGO_PUBLISH=$PUBLISH $DIR/hugonew.zsh $DESCRIPTOR || exit 1
+    NEXT=$(HUGO_SKIPIMG=true HUGO_TAGS="$TAGS" HUGO_PUBLISH=$PUBLISH $DIR/hugonew.zsh $DESCRIPTOR) || exit 1
+    NEXT=$(echo $NEXT | sed -E 's/Content \"(.*?)\" created/\1/g')
 
     # paragraph
     echo >> $NEXT
