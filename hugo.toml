@@ -31,7 +31,8 @@ staticDir = ['static', 'assets']
 [params.theme]
   default = "redeye"
   home = "redeye"
-  posts = "redeye"
+  # WARN: theme may be set in content/posts/_index.md and content/books/_index.md etc.
+  # this is intended as a fallback. it currently looks good in about/ and /study etc.
   section = "yellowjacket"
   metaTagThemeColor = "#d43"
 
