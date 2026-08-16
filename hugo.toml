@@ -217,5 +217,11 @@ style = 'gruvbox'
     isPlainText = true
     notAlternative = true
 
+  [outputFormats.PlainText]
+    mediaType = "text/plain"
+    baseName = "index"
+    isPlainText = true
+
 [outputs]
   home = ["HTML", "Headers"]
+  page = ["HTML", "PlainText"]
