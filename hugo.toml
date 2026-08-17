@@ -224,6 +224,6 @@ style = 'gruvbox'
 
 [outputs]
   home = ["HTML", "Headers"]
-  page = ["HTML", "PlainText"]
+  page = ["HTML", "PlainText", 'JSON']
   # default, but to be explicit about why the template works: layouts/posts/rss.xml
   section = ['HTML', 'RSS']
