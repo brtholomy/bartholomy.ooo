@@ -23,6 +23,9 @@ copyright = "hautogdoad"
 # the static dir.
 staticDir = ['static', 'assets']
 
+# ./themes/bth-hermit/layouts/robots.txt
+enableRobotsTXT = true
+
 [params.author]
   name = "Bartholomy"
   url = "/about"
