@@ -3,5 +3,7 @@
 /public/
 .hugo_build.lock
 
+todo.md
+
 # Local Netlify folder
 .netlify

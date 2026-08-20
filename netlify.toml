@@ -1,7 +1,21 @@
+[build.environment]
+  HUGO_VERSION = "0.164.0"
+  GO_VERSION = "1.26.5"
+  DART_SASS_VERSION = "1.102.0"
+
 # Settings in the [build] context are global and are applied to
 # all contexts unless otherwise overridden by more specific contexts.
+# https://gohugo.io/host-and-deploy/host-on-netlify/#procedure
+# https://gohugo.io/functions/css/sass/#dart-sass
 [build]
-  command = "hugo --gc --minify"
+  command = """\
+  curl -sLJO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
+  tar -C "${HOME}/.local" -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
+  rm "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz" && \
+  export PATH="${HOME}/.local/dart-sass:${PATH}" && \
+  git config core.quotepath false && \
+  hugo build --gc --minify
+  """
 
   # Directory to change to before starting a build.
   # This is where we will look for package.json/.nvmrc/etc.
@@ -14,10 +28,6 @@
   # a base has not been set. This sample publishes the directory
   # located at the absolute path "root/project/build-output"
   publish = "public"
-
-[build.environment]
-  HUGO_VERSION = "0.128.2"
-  GO_VERSION = "1.23.1"
 
 [functions]
   directory = "netlify/functions/"
@@ -46,6 +56,7 @@
 #   publish = "output/"
 #   command = "make publish"
 
+# https://docs.netlify.com/build/configure-builds/environment-variables/#deploy-urls-and-metadata
 # Deploy Preview context: all deploys generated from
 # a pull/merge request will inherit these settings.
 [context.deploy-preview]
@@ -58,7 +69,7 @@
 
 # Specific branch context: all deploys from
 # this specific branch will inherit these settings.
-# “staging” is the branch name
+# TODO: this will need the Dart Sass setup
 [context.staging]
   command = "hugo --gc --minify --buildDrafts --buildFuture -b $DEPLOY_PRIME_URL"
 

@@ -1,5 +1,4 @@
 baseURL = "https://www.bartholomy.ooo/"
-languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "bartholomy"
 theme = "bth-hermit"
@@ -7,7 +6,13 @@ theme = "bth-hermit"
 # use &#169; {{ now.Format "2006" }} preceeding:
 copyright = "hautogdoad"
 
-googleAnalytics = "G-CXJ7N79PMM"
+# disabled : stop tracking my readers for fucks sake.
+# click tracking was added to content like this:
+# https://github.com/brtholomy/bartholomy.ooo/commit/f9209dc
+# removed:
+# https://github.com/brtholomy/bth-hermit/commit/5de238b
+# https://github.com/brtholomy/bth-hermit/commit/58d5ef9
+# googleAnalytics = "G-CXJ7N79PMM"
 
 # no effect in my custom rss template, currently.
 # rssLimit = 10  # Maximum number of items in the RSS feed.
@@ -18,15 +23,27 @@ googleAnalytics = "G-CXJ7N79PMM"
 # the static dir.
 staticDir = ['static', 'assets']
 
+# ./themes/bth-hermit/layouts/robots.txt
+enableRobotsTXT = true
+
 [params.author]
   name = "Bartholomy"
   url = "/about"
   email = "yo@bartholomy.ooo"
 
+[params.theme]
+  default = "redeye"
+  home = "redeye"
+  # WARN: theme may be set in content/posts/_index.md and content/books/_index.md etc.
+  # this is intended as a fallback. it currently looks good in about/ and /study etc.
+  section = "yellowjacket"
+  metaTagThemeColor = "#d43"
+
 [params]
+
   # NOTE: .Site.GetPage needs filename, not slug:
   # if the post is draft: true, this will currently not break the build, but it won't show up in posts/
-  featuredPost = 'posts/019.psychology.md'
+  featuredPost = 'posts/339.ktb.md'
 
   # meta stuff
   homeSubtitle = "Unlimited Human Renaissance"
@@ -43,12 +60,11 @@ staticDir = ['static', 'assets']
   # NOTE: so without either Summary or Description set in params, RSS <item> will lack <description> tag,
   # but the <meta> tags in the header will still be present.
   description = "Moral critique, neuroscience, psychoanalysis, anthropology, and philosophy."
-  themeColor = "#c65108"
   favicon = "headshot-zoom.ico"
   images = ["headshot.png", "covers/0152.witch_hunt.jpg"]
 
   # footer
-  logo = "headshot_150px.png"
+  logo = "headshot_150px.webp"
   logolink = "/about"
   copyrightlink = "/about/privacy/"
   defaultPlace = "Fool's Bluff, Nevada"
@@ -183,3 +199,34 @@ xhtml = false
 # https://gohugo.io/getting-started/configuration-markup/#highlight
 [markup.highlight]
 style = 'gruvbox'
+
+# HTTP headers
+# themes/bth-hermit/layouts/index.headers
+# we do this rather than a [[headers]] entry in netlify.toml because we need access to the inline JS for the CSP hash.
+# https://gohugo.io/configuration/media-types/
+# https://docs.netlify.com/build/configure-builds/file-based-configuration/#headers
+# TODO: i don't really understand why this works without defining a "headers" suffix.
+[mediaTypes]
+  [mediaTypes."text/netlify"]
+    suffixes = [""]
+    delimiter = ""
+
+# https://gohugo.io/configuration/output-formats/
+# outputs public/_headers for Netlify to find: https://docs.netlify.com/manage/routing/headers/
+[outputFormats]
+  [outputFormats.Headers]
+    mediaType = "text/netlify"
+    baseName = "_headers"
+    isPlainText = true
+    notAlternative = true
+
+  [outputFormats.PlainText]
+    mediaType = "text/plain"
+    baseName = "index"
+    isPlainText = true
+
+[outputs]
+  home = ["HTML", "Headers"]
+  page = ["HTML", "PlainText", 'JSON']
+  # default, but to be explicit about why the template works: layouts/posts/rss.xml
+  section = ['HTML', 'RSS']
