@@ -206,6 +206,34 @@
   to = "/music"
   status = 302
 
+################################################################
+# NOTE: deleted podcasts. see : a9705ba
+[[redirects]]
+  from = "/posts/masshysteria-podcast"
+  to = "/posts/masshysteria"
+  status = 302
+
+[[redirects]]
+  from = "/posts/decrepitude-podcast"
+  to = "/posts/decrepitude"
+  status = 302
+
+[[redirects]]
+  from = "/posts/nudge-podcast"
+  to = "/posts/nudge"
+  status = 302
+
+[[redirects]]
+  from = "/posts/fetish-of-the-wretched-podcast"
+  to = "/posts/fetish-of-the-wretched"
+  status = 302
+
+[[redirects]]
+  from = "/posts/newly-disillusioned-podcast"
+  to = "/posts/newly-disillusioned"
+  status = 302
+
+################################################################
 # global substack redirect:
 # NOTE: this is a case switch catch all, must go at the end:
 [[redirects]]
