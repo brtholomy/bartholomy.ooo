@@ -1,3 +1,6 @@
+################################################################
+## build
+
 [build.environment]
   HUGO_VERSION = "0.164.0"
   GO_VERSION = "1.26.5"
@@ -43,9 +46,9 @@
   # targetPort = 1313
   # publish = "dist"
 
-##############################
-# contexts
-##############################
+################################################################
+## context
+################################################################
 
 # Production context: all deploys from the Production branch
 # set in your site's Branches settings in the UI will inherit
@@ -56,25 +59,22 @@
 #   publish = "output/"
 #   command = "make publish"
 
-# https://docs.netlify.com/build/configure-builds/environment-variables/#deploy-urls-and-metadata
-# Deploy Preview context: all deploys generated from
-# a pull/merge request will inherit these settings.
-[context.deploy-preview]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
-
-# Here is an example of how to define context-specific
-# environment variables.
-# [context.deploy-preview.environment]
-#   HUGO_BASEURL = "/"
-
 # Specific branch context: all deploys from
 # this specific branch will inherit these settings.
 # TODO: this will need the Dart Sass setup
 [context.staging]
   command = "hugo --gc --minify --buildDrafts --buildFuture -b $DEPLOY_PRIME_URL"
 
-[context.buttondownapi]
-  command = "hugo --gc --minify --buildDrafts --buildFuture -b $DEPLOY_PRIME_URL"
+# Here is an example of how to define context-specific
+# environment variables.
+# [context.deploy-preview.environment]
+#   HUGO_BASEURL = "/"
+
+# https://docs.netlify.com/build/configure-builds/environment-variables/#deploy-urls-and-metadata
+# Deploy Preview context: all deploys generated from
+# a pull/merge request will inherit these settings.
+[context.deploy-preview]
+  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 # Dev context: environment variables set here
 # are available for local development environments
@@ -84,9 +84,9 @@
 # [context.dev.environment]
 #   NODE_ENV = "development"
 
-##############################
-# redirects
-##############################
+################################################################
+## redirects
+################################################################
 
 # Redirects and headers are GLOBAL for all builds – they do not
 # get scoped to contexts no matter where you define them in the file.
@@ -95,8 +95,9 @@
 
 # order matters, since this is effectively a case block:
 
-################
-# shortcut redirects:
+################################################################
+### shortcut redirects:
+
 # Foundations of Human Worth:
 [[redirects]]
   from = "/fhw"
@@ -116,8 +117,8 @@
   # to = "https://bartholomy.setmore.com/beta/book?step=time-slot&products=b72af6bd-73f2-4784-9ed3-4c8897d5b58d&type=service&staff=6cfdce59-41e9-4963-8cf6-b549219397f8&staffSelected=true"
   status = 302
 
-################
-# hautogdoad redirects:
+################################################################
+### hautogdoad redirects:
 [[redirects]]
   from = "/studentship.html"
   to = "/study"
@@ -129,12 +130,8 @@
   # FIXME: come up with a replacement, using temporary 302 for now:
   status = 302
 
-################
-# substack redirects:
-[[redirects]]
-  from = "/feed"
-  to = "/posts/index.xml"
-  status = 301
+################################################################
+### substack redirects:
 
 # FIXME: this may be incorrect: this is the account interface?
 [[redirects]]
@@ -142,7 +139,14 @@
   to = "/posts"
   status = 301
 
-# renamed slugs
+[[redirects]]
+  from = "/feed"
+  to = "/posts/index.xml"
+  status = 301
+
+################################################################
+### renamed slugs
+
 [[redirects]]
   from = "/p/the-circularity-of-nietzschean-pedagogy"
   to = "/posts/nietzschean-pedagogy"
@@ -207,7 +211,8 @@
   status = 302
 
 ################################################################
-# NOTE: deleted podcasts. see : a9705ba
+### deleted podcasts. see : a9705ba
+
 [[redirects]]
   from = "/posts/masshysteria-podcast"
   to = "/posts/masshysteria"
@@ -234,47 +239,50 @@
   status = 302
 
 ################################################################
-# global substack redirect:
+### global substack redirect:
 # NOTE: this is a case switch catch all, must go at the end:
 [[redirects]]
   from = "/p/*"
   to = "/posts/:splat"
   status = 301
 
-################ default stuff for reference
 
-# A redirect rule with many of the supported properties
-[[redirects]]
-  from = "/old-path"
-  to = "/new-path"
+################################################################
+## default stuff for reference
+################################################################
 
-  # The default HTTP status code is 301, but you can
-  # define a different one.
-  status = 301
+# # A redirect rule with many of the supported properties
+# [[redirects]]
+#   from = "/old-path"
+#   to = "/new-path"
 
-  # By default, redirects won't be applied if there's a file
-  # with the same path as the one defined in the `from` property.
-  # Setting `force` to `true` will make the redirect rule
-  # take precedence over any existing files.
-  force = true
+#   # The default HTTP status code is 301, but you can
+#   # define a different one.
+#   status = 301
 
-  # Redirect from /old-path?id=123 to /new-path.
-  # Each combination of query params needs to be
-  # defined in a separate [[redirects]] block.
-  # More information at https://docs.netlify.com/routing/redirects/redirect-options/#query-parameters
-  query = {id = ":id"}
+#   # By default, redirects won't be applied if there's a file
+#   # with the same path as the one defined in the `from` property.
+#   # Setting `force` to `true` will make the redirect rule
+#   # take precedence over any existing files.
+#   force = true
 
-  # Redirect based on conditions including browser language,
-  # geolocation, identity role, and/or cookie presence.
-  conditions = {Language = ["en"], Country = ["US"]}
+#   # Redirect from /old-path?id=123 to /new-path.
+#   # Each combination of query params needs to be
+#   # defined in a separate [[redirects]] block.
+#   # More information at https://docs.netlify.com/routing/redirects/redirect-options/#query-parameters
+#   query = {id = ":id"}
 
-  # Sign each request with a value defined in an environment variable
-  signed = "API_SIGNATURE_TOKEN"
+#   # Redirect based on conditions including browser language,
+#   # geolocation, identity role, and/or cookie presence.
+#   conditions = {Language = ["en"], Country = ["US"]}
 
-  # You can also define custom headers within your redirects blocks.
-  [redirects.headers]
-    X-From = "Netlify"
-    X-Api-Key = "some-api-key-string"
+#   # Sign each request with a value defined in an environment variable
+#   signed = "API_SIGNATURE_TOKEN"
+
+#   # You can also define custom headers within your redirects blocks.
+#   [redirects.headers]
+#     X-From = "Netlify"
+#     X-Api-Key = "some-api-key-string"
 
 # Redirects for role-based access control don't use the 'to' property.
 # [[redirects]]
@@ -309,3 +317,9 @@
 #     # Basic-Auth allows you to password protect your whole site.
 #     # This feature may not be available on all plans.
 #     Basic-Auth = "someuser:somepassword anotheruser:anotherpassword"
+
+################################################################
+# Local Variables:
+# outline-regexp: "##+ [^#]+"
+# eval: (outline-minor-mode 1)
+# End:
