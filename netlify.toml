@@ -32,8 +32,13 @@
   # located at the absolute path "root/project/build-output"
   publish = "public"
 
-[functions]
-  directory = "netlify/functions/"
+# NOTE: deleted AWS lambda because I no longer need the integration with Buttondown API.
+# NOTE: netlify UI setting still sends an email notification.
+# NOTE: can still query the form submissions directly via netlify API.
+# WARN: what's lost is double opt in.
+# https://github.com/brtholomy/emailpipe/commit/0356571
+# [functions]
+#   directory = "netlify/functions/"
 
 # FIXME: css fails to load on netlify dev. Probably baseUrl is wrong. $DEPLOY_PRIME_URL doesn't seem to be set here.
 # Use [dev] to set configuration overrides for local
