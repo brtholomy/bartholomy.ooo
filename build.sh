@@ -4,7 +4,7 @@
 # https://gohugo.io/host-and-deploy/host-on-cloudflare/
 # but it's clearly overengineered.
 
-# WARN: will not work, because UI set env vars are used to setup env before thsi runs.
+# WARN: will not work, because UI set env vars are used to setup env before this runs.
 # export HUGO_VERSION = "0.164.0"
 # export GO_VERSION = "1.26.5"
 # export DART_SASS_VERSION = "1.102.0"
@@ -26,10 +26,10 @@ export PATH="${HOME}/.local/dart-sass:${PATH}"
 echo "configuring git..."
 git config core.quotepath false
 
-# Cloudflare automatically exposes $CF_PAGES_BRANCH and $CF_PAGES_URL
+# Cloudflare exposes $CF_PAGES_BRANCH and $CF_PAGES_URL
 if [ "$CF_PAGES_BRANCH" == "master" ]; then
   echo "executing production build..."
-  hugo build --gc --minify --baseURL "$CF_PAGES_URL"
+  hugo build --gc --minify
 else
   echo "executing staging build on branch: $CF_PAGES_BRANCH"
   # $CF_PAGES_URL gives the preview environment its correct base URL
