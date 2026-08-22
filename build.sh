@@ -28,10 +28,19 @@ git config core.quotepath false
 
 # Cloudflare exposes $CF_PAGES_BRANCH and $CF_PAGES_URL
 if [ "$CF_PAGES_BRANCH" == "master" ]; then
-  echo "executing production build..."
+  echo "production build..."
+  # WARN: will break the unhashed production preview, because baseURL will remain what's set in hugo.toml,
+  # and CSP will disallow.
   hugo build --gc --minify
 else
-  echo "executing staging build on branch: $CF_PAGES_BRANCH"
-  # $CF_PAGES_URL gives the preview environment its correct base URL
-  hugo build --gc --minify --buildDrafts --buildFuture --baseURL "$CF_PAGES_URL"
+  echo "staging build on branch: $CF_PAGES_BRANCH"
+  # $CF_PAGES_URL is full deploy URL.
+  # hugo build --gc --minify --buildDrafts --buildFuture --baseURL "$CF_PAGES_URL"
+
+  # TODO: this is somewhat a hack. the reason for this is that I don't want to go into the UI to get
+  # the random hashed deploy URL, eg: https://f45c57c1.bartholomy.pages.dev/
+  # NOTE: lower and transform any unusual char to hyphen:
+  SAFE_BRANCH=$(echo "$CF_PAGES_BRANCH" | tr '[:upper:]' '[:lower:]' | sed 's/[^a-z0-9]/-/g')
+  BRANCH_URL="https://${SAFE_BRANCH}.bartholomy.pages.dev"
+  hugo build --gc --minify --buildDrafts --buildFuture --baseURL "$BRANCH_URL"
 fi
