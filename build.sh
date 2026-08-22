@@ -27,11 +27,11 @@ echo "configuring git..."
 git config core.quotepath false
 
 # Cloudflare automatically exposes $CF_PAGES_BRANCH and $CF_PAGES_URL
-if [ "$CF_PAGES_BRANCH" == "main" ]; then
+if [ "$CF_PAGES_BRANCH" == "master" ]; then
   echo "executing production build..."
-  hugo build --gc --minify
+  hugo build --gc --minify --baseURL "$CF_PAGES_URL"
 else
   echo "executing staging build on branch: $CF_PAGES_BRANCH"
   # $CF_PAGES_URL gives the preview environment its correct base URL
-  hugo build --gc --minify --buildDrafts --buildFuture -b "$CF_PAGES_URL"
+  hugo build --gc --minify --buildDrafts --buildFuture --baseURL "$CF_PAGES_URL"
 fi
